@@ -3,11 +3,11 @@ import { Card, P, Ul, Li } from '../components/shared';
 export default function SleepSection() {
   return (
     <>
-      <Card title="Sleep Architecture" color="#c9b2db">
+      <Card title="Sleep Architecture" color="#aa88ff">
         <P>Your goal: 7–8 hours, currently at 6–7. That extra hour will compound massively across recovery, anxiety, muscle repair, and gut health.</P>
       </Card>
 
-      <Card title="The Brooklyn 99 Transition Plan" color="#c9b2db">
+      <Card title="The Brooklyn 99 Transition Plan" color="#aa88ff">
         <P>Blue light suppresses melatonin and keeps your brain more active. But cold-turkey switching will fail because B99 works for you (familiar voices, humor that distracts from anxious thoughts, masks tinnitus). Transition gradually:</P>
         <Ul>
           <Li><strong>Phase 1 (Weeks 1–3):</strong> Keep watching B99, but enable maximum blue light filter. Set screen brightness to minimum. Place phone face-down so you hear but don't stare.</Li>
@@ -18,7 +18,7 @@ export default function SleepSection() {
         <P>No rush. If Phase 2 works for months, that's fine. The goal is screen off, not silence.</P>
       </Card>
 
-      <Card title="Sleep Hygiene Protocol" color="#c9b2db">
+      <Card title="Sleep Hygiene Protocol" color="#aa88ff">
         <Ul>
           <Li><strong>Consistent schedule:</strong> Same bedtime and wake time every day including weekends. Pick a window (e.g., 11:30 PM – 7:30 AM) and stick to it within 30 minutes.</Li>
           <Li><strong>No food 2–3 hours before bed:</strong> Helps both globus sensation and sleep quality. If hungry, a small handful of almonds or a banana is fine.</Li>
@@ -29,7 +29,7 @@ export default function SleepSection() {
         </Ul>
       </Card>
 
-      <Card title="Tinnitus at Night — Management" color="#c9b2db">
+      <Card title="Tinnitus at Night — Management" color="#aa88ff">
         <P>Sound masking at low volume is the evidence-based approach. The sound should be just loud enough to reduce the contrast between tinnitus and silence — not loud enough to drown it out completely. Over time this helps your brain habituate rather than becoming dependent on masking.</P>
         <Ul>
           <Li><strong>Brown noise</strong> tends to be more effective than white noise for tinnitus — it's deeper and less harsh, matching common tinnitus frequencies better.</Li>

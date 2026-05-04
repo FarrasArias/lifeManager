@@ -8,11 +8,11 @@ export const WARMUP = [
 export const DAY1 = [
   { id: 'd1-0', name: 'Cable chest press (neutral grip)',     sets: 4, repMin: 8,  repMax: 12, defaultWeight: '9kg',  hasWeight: true,  notes: 'Staggered stance, don\'t lock elbows' },
   { id: 'd1-1', name: 'DB bench press (neutral grip)',        sets: 3, repMin: 8,  repMax: 12, defaultWeight: '10lb', hasWeight: true,  notes: 'Light/strict, stop before lockout' },
-  { id: 'd1-2', name: 'Cable fly',                           sets: 3, repMin: 12, repMax: 15, defaultWeight: '9kg',  hasWeight: true,  notes: 'Constant tension, slow eccentric' },
-  { id: 'd1-3', name: 'Cable row (light, postural)',          sets: 3, repMin: 12, repMax: 15, defaultWeight: '',     hasWeight: true,  notes: 'Elbows 30–45°, squeeze 1s at top' },
-  { id: 'd1-4', name: 'Cable lateral raise',                  sets: 3, repMin: 12, repMax: 18, defaultWeight: '5kg',  hasWeight: true,  notes: 'Lead with pinky, controlled' },
-  { id: 'd1-5', name: 'Triceps rope pressdown',               sets: 3, repMin: 10, repMax: 15, defaultWeight: '14kg', hasWeight: true,  notes: 'Don\'t snap to full lockout (elbow)' },
-  { id: 'd1-6', name: 'Pallof press (core)',                  sets: 3, repMin: 10, repMax: 10, defaultWeight: '18kg', hasWeight: true,  notes: 'Anti-rotation, brace transverse abs' },
+  { id: 'd1-2', name: 'Cable fly',                           sets: 3, repMin: 8, repMax: 15, defaultWeight: '9kg',  hasWeight: true,  notes: 'Constant tension, slow eccentric' },
+  { id: 'd1-3', name: 'Cable row (light, postural)',          sets: 3, repMin: 8, repMax: 15, defaultWeight: '',     hasWeight: true,  notes: 'Elbows 30–45°, squeeze 1s at top' },
+  { id: 'd1-4', name: 'Cable lateral raise',                  sets: 3, repMin: 8, repMax: 18, defaultWeight: '5kg',  hasWeight: true,  notes: 'Lead with pinky, controlled' },
+  { id: 'd1-5', name: 'Triceps rope pressdown',               sets: 3, repMin: 8, repMax: 15, defaultWeight: '14kg', hasWeight: true,  notes: 'Don\'t snap to full lockout (elbow)' },
+  { id: 'd1-6', name: 'Pallof press (core)',                  sets: 3, repMin: 8, repMax: 12, defaultWeight: '18kg', hasWeight: true,  notes: 'Anti-rotation, brace transverse abs' },
 ];
 
 export const DAY2 = [

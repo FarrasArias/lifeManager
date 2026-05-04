@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useCloudSync } from '../hooks/useCloudSync';
 import { Card, P, Btn } from '../components/shared';
 import { MONO } from '../constants/sections';
 import { MEALS_DB, DAILY_ITEMS, AISLE_ORDER } from '../constants/meals';
@@ -58,9 +59,9 @@ function formatListForClipboard(groceryList, checkedItems, sortedAisles) {
 }
 
 export default function GrocerySection() {
-  const [plan, setPlan] = useState({});
-  const [showList, setShowList] = useState(false);
-  const [checkedItems, setCheckedItems] = useState({});
+  const [plan, setPlan] = useCloudSync('groceryPlan', {});
+  const [showList, setShowList] = useCloudSync('groceryShowList', false);
+  const [checkedItems, setCheckedItems] = useCloudSync('groceryChecked', {});
   const [copied, setCopied] = useState(false);
 
   const setMeal = (day, key) => setPlan(prev => {
@@ -68,6 +69,17 @@ export default function GrocerySection() {
     if (key === '') delete copy[day]; else copy[day] = key;
     return copy;
   });
+
+  const generateList = () => {
+    setCheckedItems({});
+    setShowList(true);
+  };
+
+  const clearAll = () => {
+    setPlan({});
+    setShowList(false);
+    setCheckedItems({});
+  };
 
   const toggleCheck = (key) => setCheckedItems(prev => ({ ...prev, [key]: !prev[key] }));
 
@@ -98,20 +110,22 @@ export default function GrocerySection() {
     }
   };
 
+  const hasPlan = Object.keys(plan).length > 0;
+
   return (
     <>
-      <Card title="Weekly Meal Planner" color="#b2dbc9">
-        <P>Select a lunch/dinner for each day. Leave blank for ramen day or eating out. Breakfast + evening snack staples are always included.</P>
+      <Card title="Weekly Meal Planner" color="#ffa756">
+        <P>Select a lunch/dinner for each day. Leave blank for ramen day or eating out. Breakfast + evening snack staples are always included. Your selections and checklist persist automatically.</P>
         <div style={{ marginTop: 8 }}>
           {DAYS_OF_WEEK.map(day => (
-            <div key={day} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 0', borderBottom: '1px solid #2a2520' }}>
-              <div style={{ fontFamily: MONO, fontSize: 13, color: '#8a8278', minWidth: 40 }}>{day}</div>
+            <div key={day} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 0', borderBottom: '1px solid #141828' }}>
+              <div style={{ fontFamily: MONO, fontSize: 13, color: '#3a4a6a', minWidth: 40 }}>{day}</div>
               <select
                 value={plan[day] || ''}
                 onChange={e => setMeal(day, e.target.value)}
                 style={{
-                  flex: 1, background: '#1a1915', color: plan[day] ? '#e8d5b7' : '#6a6358',
-                  border: '1px solid #3a352e', borderRadius: 2, padding: '8px 12px',
+                  flex: 1, background: '#0a0d16', color: plan[day] ? '#dde8ff' : '#6a7a9c',
+                  border: '1px solid #1e2640', borderRadius: 2, padding: '8px 12px',
                   fontSize: 13, fontFamily: 'Georgia, serif', cursor: 'pointer',
                 }}
               >
@@ -133,7 +147,7 @@ export default function GrocerySection() {
                 </optgroup>
               </select>
               {plan[day] && (
-                <span style={{ fontSize: 11, fontFamily: MONO, color: '#6a6358', whiteSpace: 'nowrap' }}>
+                <span style={{ fontSize: 11, fontFamily: MONO, color: '#6a7a9c', whiteSpace: 'nowrap' }}>
                   {MEALS_DB[plan[day]]?.servings} srv
                 </span>
               )}
@@ -142,40 +156,41 @@ export default function GrocerySection() {
         </div>
         <div style={{ marginTop: 16, display: 'flex', gap: 12, flexWrap: 'wrap', alignItems: 'center' }}>
           <button
-            onClick={() => { setShowList(true); setCheckedItems({}); }}
-            disabled={Object.keys(plan).length === 0}
+            onClick={generateList}
+            disabled={!hasPlan}
             style={{
-              background: Object.keys(plan).length > 0 ? '#b2dbc9' : '#3a352e',
-              color: Object.keys(plan).length > 0 ? '#1a1915' : '#6a6358',
+              background: hasPlan ? '#ffa756' : '#1e2640',
+              color: hasPlan ? '#0a0d16' : '#6a7a9c',
               border: 'none', padding: '10px 24px', fontSize: 14,
               fontFamily: 'Georgia, serif', fontWeight: 600, borderRadius: 2,
-              cursor: Object.keys(plan).length > 0 ? 'pointer' : 'default',
+              cursor: hasPlan ? 'pointer' : 'default',
             }}
-          >Generate Grocery List</button>
-          {Object.keys(plan).length === 0 && (
-            <span style={{ fontSize: 12, color: '#6a6358' }}>Select at least one meal first</span>
+          >{showList ? 'Regenerate List' : 'Generate Grocery List'}</button>
+          {!hasPlan && (
+            <span style={{ fontSize: 12, color: '#6a7a9c' }}>Select at least one meal first</span>
           )}
-          {showList && (
-            <Btn onClick={() => { setPlan({}); setShowList(false); setCheckedItems({}); }}>Reset All</Btn>
+          {(hasPlan || showList) && (
+            <Btn onClick={clearAll} style={{ color: '#8a5a5a', borderColor: '#5a3a3a' }}>Clear All</Btn>
           )}
         </div>
       </Card>
 
       {showList && (
-        <Card title="Your Grocery List" color="#b2dbc9">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16, padding: '10px 14px', background: '#1a2520', borderRadius: 2, border: '1px solid #2a3530' }}>
-            <span style={{ fontSize: 13, color: '#b2dbc9', fontFamily: MONO }}>
+        <Card title="Your Grocery List" color="#ffa756">
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16, padding: '10px 14px', background: '#0a1420', borderRadius: 2, border: '1px solid #1a2040' }}>
+            <span style={{ fontSize: 13, color: '#ffa756', fontFamily: MONO }}>
               {checkedCount} / {totalItems} items
             </span>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-              <div style={{ width: 100, height: 6, background: '#2a3530', borderRadius: 3, overflow: 'hidden' }}>
-                <div style={{ width: totalItems > 0 ? `${(checkedCount / totalItems) * 100}%` : '0%', height: '100%', background: '#b2dbc9', borderRadius: 3, transition: 'width 0.3s' }} />
+              <div style={{ width: 100, height: 6, background: '#1a2040', borderRadius: 3, overflow: 'hidden' }}>
+                <div style={{ width: totalItems > 0 ? `${(checkedCount / totalItems) * 100}%` : '0%', height: '100%', background: '#ffa756', borderRadius: 3, transition: 'width 0.3s' }} />
               </div>
               <button
                 onClick={copyToClipboard}
                 style={{
-                  background: copied ? '#4a8c5c' : '#2a3530', border: '1px solid ' + (copied ? '#4a8c5c' : '#3a4530'),
-                  color: copied ? '#c9dbb2' : '#b2dbc9', padding: '6px 16px', fontSize: 13,
+                  background: copied ? '#4a8c5c' : '#1a2040',
+                  border: '1px solid ' + (copied ? '#4a8c5c' : '#2a3050'),
+                  color: copied ? '#56fcd8' : '#ffa756', padding: '6px 16px', fontSize: 13,
                   fontFamily: MONO, borderRadius: 2, cursor: 'pointer', transition: 'all 0.2s',
                   whiteSpace: 'nowrap',
                 }}
@@ -185,21 +200,21 @@ export default function GrocerySection() {
 
           {sortedAisles.map(aisle => (
             <div key={aisle} style={{ marginBottom: 20 }}>
-              <div style={{ fontSize: 12, fontFamily: MONO, color: '#b2dbc9', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8, paddingBottom: 4, borderBottom: '1px solid #2a3530' }}>
+              <div style={{ fontSize: 12, fontFamily: MONO, color: '#ffa756', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 8, paddingBottom: 4, borderBottom: '1px solid #1a2040' }}>
                 {aisle}
               </div>
               {groceryList[aisle].map((entry, i) => {
                 const key = `${aisle}-${entry.item}`;
-                const checked = checkedItems[key];
+                const checked = !!checkedItems[key];
                 return (
-                  <div key={i} onClick={() => toggleCheck(key)} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, padding: '8px 4px', cursor: 'pointer', opacity: checked ? 0.4 : 1, transition: 'opacity 0.2s', borderBottom: '1px solid #22201b' }}>
-                    <div style={{ width: 18, height: 18, borderRadius: 2, border: checked ? '1px solid #b2dbc9' : '1px solid #3a352e', background: checked ? '#b2dbc9' : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 1, fontSize: 12, color: '#1a1915', fontWeight: 700 }}>
+                  <div key={i} onClick={() => toggleCheck(key)} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, padding: '8px 4px', cursor: 'pointer', opacity: checked ? 0.4 : 1, transition: 'opacity 0.2s', borderBottom: '1px solid #0f1320' }}>
+                    <div style={{ width: 18, height: 18, borderRadius: 2, border: checked ? '1px solid #ffa756' : '1px solid #1e2640', background: checked ? '#ffa756' : 'transparent', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, marginTop: 1, fontSize: 12, color: '#0a0d16', fontWeight: 700 }}>
                       {checked ? '✓' : ''}
                     </div>
                     <div style={{ flex: 1 }}>
-                      <div style={{ fontSize: 14, color: checked ? '#6a6358' : '#e8d5b7', textDecoration: checked ? 'line-through' : 'none' }}>{entry.item}</div>
-                      <div style={{ fontSize: 12, color: '#6a6358', marginTop: 2 }}>
-                        {entry.isPantry ? <span style={{ color: '#8a7a5a', fontStyle: 'italic' }}>pantry — check if needed</span> : entry.qty.join(' + ')}
+                      <div style={{ fontSize: 14, color: checked ? '#6a7a9c' : '#dde8ff', textDecoration: checked ? 'line-through' : 'none' }}>{entry.item}</div>
+                      <div style={{ fontSize: 12, color: '#6a7a9c', marginTop: 2 }}>
+                        {entry.isPantry ? <span style={{ color: '#8a8060', fontStyle: 'italic' }}>pantry — check if needed</span> : entry.qty.join(' + ')}
                       </div>
                     </div>
                   </div>
@@ -208,8 +223,8 @@ export default function GrocerySection() {
             </div>
           ))}
 
-          <div style={{ marginTop: 16, padding: '12px 14px', background: '#1a2520', borderRadius: 2, border: '1px solid #2a3530', fontSize: 13, color: '#6a6358' }}>
-            Tap items to check them off as you shop. Quantities auto-scale per servings needed.
+          <div style={{ marginTop: 16, padding: '12px 14px', background: '#0a1420', borderRadius: 2, border: '1px solid #1a2040', fontSize: 13, color: '#6a7a9c' }}>
+            Tap items to check them off as you shop. Checked state persists — use "Clear All" to start fresh.
           </div>
         </Card>
       )}

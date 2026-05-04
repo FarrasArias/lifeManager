@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocalStorage } from '../hooks/useLocalStorage';
+import { useCloudSync } from '../hooks/useCloudSync';
 import { Card, P, Btn } from '../components/shared';
 import { MONO } from '../constants/sections';
 
@@ -34,9 +34,9 @@ function ScoreButton({ value, selected, lowerIsBetter, onClick }) {
     <button
       onClick={() => onClick(value)}
       style={{
-        flex: 1, padding: '10px 4px', border: selected ? `2px solid ${color}` : '2px solid #3a352e',
-        background: selected ? color + '33' : '#1a1915', borderRadius: 3,
-        color: selected ? color : '#6a6358', fontSize: 12, fontFamily: 'inherit',
+        flex: 1, padding: '10px 4px', border: selected ? `2px solid ${color}` : '2px solid #1e2640',
+        background: selected ? color + '33' : '#0a0d16', borderRadius: 3,
+        color: selected ? color : '#6a7a9c', fontSize: 12, fontFamily: 'inherit',
         cursor: 'pointer', transition: 'all 0.15s', textAlign: 'center',
       }}
     >
@@ -47,7 +47,7 @@ function ScoreButton({ value, selected, lowerIsBetter, onClick }) {
 }
 
 function MiniBar({ score, lowerIsBetter }) {
-  if (!score) return <span style={{ color: '#3a352e', fontSize: 12 }}>—</span>;
+  if (!score) return <span style={{ color: '#1e2640', fontSize: 12 }}>—</span>;
   const colors = lowerIsBetter ? SCORE_COLORS : SLEEP_COLORS;
   const color = colors[score - 1];
   return (
@@ -55,7 +55,7 @@ function MiniBar({ score, lowerIsBetter }) {
       {[1,2,3,4,5].map(i => (
         <div key={i} style={{
           width: 8, height: 8, borderRadius: 1,
-          background: i <= score ? color : '#2a2520',
+          background: i <= score ? color : '#141828',
         }} />
       ))}
     </div>
@@ -63,7 +63,7 @@ function MiniBar({ score, lowerIsBetter }) {
 }
 
 export default function PainTracker() {
-  const [log, setLog] = useLocalStorage('painLog', []);
+  const [log, setLog] = useCloudSync('painLog', []);
   const today = todayKey();
   const todayEntry = log.find(e => e.date === today) || { date: today, scores: {} };
   const [draft, setDraft] = useState(todayEntry.scores);
@@ -81,16 +81,16 @@ export default function PainTracker() {
 
   return (
     <>
-      <Card title={`Daily Check-In — ${formatDate(today)}`} color="#f0b8a0">
+      <Card title={`Daily Check-In — ${formatDate(today)}`} color="#ff6eb4">
         <P>Quick daily pulse. Tap 1–5 for each category. Lower = better for pain/anxiety; higher = better for sleep. Data saves automatically.</P>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginTop: 8 }}>
           {CATEGORIES.map(cat => (
             <div key={cat.id}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
                 <span style={{ fontSize: 18 }}>{cat.icon}</span>
-                <span style={{ fontSize: 14, color: '#e8d5b7', fontWeight: 600 }}>{cat.label}</span>
+                <span style={{ fontSize: 14, color: '#dde8ff', fontWeight: 600 }}>{cat.label}</span>
                 {draft[cat.id] && (
-                  <span style={{ fontSize: 11, color: '#6a6358', fontFamily: MONO, marginLeft: 'auto' }}>
+                  <span style={{ fontSize: 11, color: '#6a7a9c', fontFamily: MONO, marginLeft: 'auto' }}>
                     logged ✓
                   </span>
                 )}
@@ -108,20 +108,20 @@ export default function PainTracker() {
             </div>
           ))}
         </div>
-        <div style={{ marginTop: 16, fontSize: 12, color: '#6a6358', fontFamily: MONO }}>
+        <div style={{ marginTop: 16, fontSize: 12, color: '#6a7a9c', fontFamily: MONO }}>
           {Object.keys(draft).length} / {CATEGORIES.length} logged today
         </div>
       </Card>
 
       {last14.length > 0 && (
-        <Card title="History — Last 14 Days" color="#f0b8a0">
+        <Card title="History — Last 14 Days" color="#ff6eb4">
           <div style={{ overflowX: 'auto' }}>
             <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 12, fontFamily: MONO }}>
               <thead>
-                <tr style={{ borderBottom: '1px solid #3a352e' }}>
-                  <th style={{ textAlign: 'left', padding: '6px 8px', color: '#6a6358', fontWeight: 400 }}>Date</th>
+                <tr style={{ borderBottom: '1px solid #1e2640' }}>
+                  <th style={{ textAlign: 'left', padding: '6px 8px', color: '#6a7a9c', fontWeight: 400 }}>Date</th>
                   {CATEGORIES.map(c => (
-                    <th key={c.id} style={{ textAlign: 'center', padding: '6px 8px', color: '#6a6358', fontWeight: 400 }}>
+                    <th key={c.id} style={{ textAlign: 'center', padding: '6px 8px', color: '#6a7a9c', fontWeight: 400 }}>
                       {c.icon}
                     </th>
                   ))}
@@ -129,8 +129,8 @@ export default function PainTracker() {
               </thead>
               <tbody>
                 {last14.map(entry => (
-                  <tr key={entry.date} style={{ borderBottom: '1px solid #1e1c19' }}>
-                    <td style={{ padding: '6px 8px', color: entry.date === today ? '#f0b8a0' : '#8a8278', whiteSpace: 'nowrap' }}>
+                  <tr key={entry.date} style={{ borderBottom: '1px solid #0a0d16' }}>
+                    <td style={{ padding: '6px 8px', color: entry.date === today ? '#ff6eb4' : '#3a4a6a', whiteSpace: 'nowrap' }}>
                       {formatDate(entry.date)}
                     </td>
                     {CATEGORIES.map(cat => (
@@ -143,13 +143,13 @@ export default function PainTracker() {
               </tbody>
             </table>
           </div>
-          <div style={{ marginTop: 12, fontSize: 11, color: '#6a6358', fontFamily: MONO }}>
+          <div style={{ marginTop: 12, fontSize: 11, color: '#6a7a9c', fontFamily: MONO }}>
             Bars: filled = scored | {CATEGORIES.filter(c => c.lowerIsBetter).map(c => c.label).join(', ')} → lower is better &nbsp;·&nbsp; Sleep → higher is better
           </div>
         </Card>
       )}
 
-      <Card title="Streak — Physio & Habits" color="#f0b8a0">
+      <Card title="Streak — Physio & Habits" color="#ff6eb4">
         <DailyHabits />
       </Card>
     </>
@@ -165,7 +165,7 @@ const HABITS = [
 ];
 
 function DailyHabits() {
-  const [habits, setHabits] = useLocalStorage('dailyHabits', {});
+  const [habits, setHabits] = useCloudSync('dailyHabits', {});
   const today = todayKey();
   const todayHabits = habits[today] || {};
 
@@ -181,10 +181,10 @@ function DailyHabits() {
   return (
     <>
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-        <div style={{ fontSize: 28, color: '#f0b8a0', fontFamily: MONO }}>{streak}</div>
+        <div style={{ fontSize: 28, color: '#ff6eb4', fontFamily: MONO }}>{streak}</div>
         <div>
-          <div style={{ fontSize: 13, color: '#e8d5b7' }}>day streak</div>
-          <div style={{ fontSize: 11, color: '#6a6358' }}>all 5 habits completed</div>
+          <div style={{ fontSize: 13, color: '#dde8ff' }}>day streak</div>
+          <div style={{ fontSize: 11, color: '#6a7a9c' }}>all 5 habits completed</div>
         </div>
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -196,20 +196,20 @@ function DailyHabits() {
               style={{
                 display: 'flex', alignItems: 'center', gap: 12,
                 padding: '10px 14px', borderRadius: 2, cursor: 'pointer',
-                background: done ? '#1e2a1e' : '#1e1c19',
-                border: done ? '1px solid #4a8c5c44' : '1px solid #2a2520',
+                background: done ? '#082018' : '#0a0d16',
+                border: done ? '1px solid #4a8c5c44' : '1px solid #141828',
                 transition: 'all 0.15s',
               }}
             >
               <div style={{
                 width: 20, height: 20, borderRadius: 2,
-                border: done ? '1px solid #4a8c5c' : '1px solid #3a352e',
+                border: done ? '1px solid #4a8c5c' : '1px solid #1e2640',
                 background: done ? '#4a8c5c' : 'transparent',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: 13, color: '#1a1915', flexShrink: 0,
+                fontSize: 13, color: '#0a0d16', flexShrink: 0,
               }}>{done ? '✓' : ''}</div>
               <span style={{ fontSize: 16 }}>{h.icon}</span>
-              <span style={{ fontSize: 14, color: done ? '#c9dbb2' : '#6a6358' }}>{h.label}</span>
+              <span style={{ fontSize: 14, color: done ? '#56fcd8' : '#6a7a9c' }}>{h.label}</span>
             </div>
           );
         })}

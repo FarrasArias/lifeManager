@@ -7,9 +7,9 @@ export default function Ailments() {
 
   return (
     <>
-      <Card title="Sciatica & Foot (S1 Nerve) — Active Priority" color="#c9dbb2" collapsible expanded={!!expanded.sciatica} onToggle={() => toggle('sciatica')}>
+      <Card title="Sciatica & Foot (S1 Nerve) — Active Priority" color="#56fcd8" collapsible expanded={!!expanded.sciatica} onToggle={() => toggle('sciatica')}>
         <P>Your lateral foot pain pattern is consistent with S1 radiculopathy. Positional changes reducing symptoms 70–95% is a great sign — the nerve is irritated, not severely compressed.</P>
-        <SectionTitle color="#c9dbb2">Daily Life Adjustments</SectionTitle>
+        <SectionTitle color="#56fcd8">Daily Life Adjustments</SectionTitle>
         <Ul>
           <Li><strong>Sitting:</strong> Continue the cushion. Stand + walk 2 min every 30 minutes. Keep hips slightly higher than knees.</Li>
           <Li><strong>Sleeping:</strong> Continue pillow between legs. Side sleeping with firm pillow from hip to ankle is ideal.</Li>
@@ -18,13 +18,13 @@ export default function Ailments() {
           <Li><strong>Lifting:</strong> Always hip hinge, never round your back. Keep loads close. No twisting under load.</Li>
           <Li><strong>No running</strong> until physio clears you. S1 nerve radiculopathy + jarring forces = setback.</Li>
         </Ul>
-        <SectionTitle color="#c9dbb2">Stretching & Sciatica — The Nuance</SectionTitle>
+        <SectionTitle color="#56fcd8">Stretching & Sciatica — The Nuance</SectionTitle>
         <P>Stretching is NOT bad for sciatica — <em>aggressive</em> stretching is. Gentle piriformis, glute, and hamstring stretches are actually recommended. Never push into sharp or radiating pain. Your physio's program is safe — follow it. Broader flexibility goal is delayed ~8–12 weeks until the nerve calms.</P>
-        <SectionTitle color="#c9dbb2">Core — Your #1 Gym Priority Now</SectionTitle>
+        <SectionTitle color="#56fcd8">Core — Your #1 Gym Priority Now</SectionTitle>
         <P>Your physio prescribed core work starting with isometrics. A weak transverse abdominis and weak multifidus means your lumbar spine has no muscular corset, making the S1 nerve more vulnerable. Dead bugs, bird-dogs, and Pallof presses — no crunches, no sit-ups, no Russian twists.</P>
       </Card>
 
-      <Card title="Cervical Spine (Back) — Maintenance Mode" color="#c9dbb2" collapsible expanded={!!expanded.cervical} onToggle={() => toggle('cervical')}>
+      <Card title="Cervical Spine (Back) — Maintenance Mode" color="#56fcd8" collapsible expanded={!!expanded.cervical} onToggle={() => toggle('cervical')}>
         <P>Cervical issues (rectified lordosis, C2-C3 anterolistesis, C3-C4 retrolistesis, scoliotic attitude, facet sclerosis, uncovertebral arthritis) are well-managed. Pain is 99% gone. Maintain everything.</P>
         <Ul>
           <Li>Keep doing cervical isometrics 3×/week (as physio taught you).</Li>
@@ -34,7 +34,7 @@ export default function Ailments() {
         </Ul>
       </Card>
 
-      <Card title="Elbow — Active Monitoring" color="#c9dbb2" collapsible expanded={!!expanded.elbow} onToggle={() => toggle('elbow')}>
+      <Card title="Elbow — Active Monitoring" color="#56fcd8" collapsible expanded={!!expanded.elbow} onToggle={() => toggle('elbow')}>
         <P>Inflammation with fluid leakage, given cubing/guitar/drums/piano/programming — classic overuse. The joint capsule is irritated.</P>
         <Ul>
           <Li><strong>Gym:</strong> Avoid full lockout on presses and pulldowns. Stop 5–10° before full extension. Use neutral grip handles when possible.</Li>
@@ -45,7 +45,7 @@ export default function Ailments() {
         </Ul>
       </Card>
 
-      <Card title="Throat / Globus / Gastritis — Dietary Integration" color="#c9dbb2" collapsible expanded={!!expanded.throat} onToggle={() => toggle('throat')}>
+      <Card title="Throat / Globus / Gastritis — Dietary Integration" color="#56fcd8" collapsible expanded={!!expanded.throat} onToggle={() => toggle('throat')}>
         <P>Globus sensation is 85% improved post-treatment. The remaining 15% is very likely anxiety-driven. H. pylori ruled out. Gastritis/duodenitis treatment is done. What remains is managing triggers.</P>
         <Ul>
           <Li><strong>Food triggers to minimize:</strong> Chocolate, very acidic foods (tomato sauce, citrus on empty stomach), spicy food on empty stomach, very hot drinks, excessive coffee.</Li>
@@ -55,7 +55,7 @@ export default function Ailments() {
         </Ul>
       </Card>
 
-      <Card title="Anxiety — The Connecting Thread" color="#c9dbb2" collapsible expanded={!!expanded.anxiety} onToggle={() => toggle('anxiety')}>
+      <Card title="Anxiety — The Connecting Thread" color="#56fcd8" collapsible expanded={!!expanded.anxiety} onToggle={() => toggle('anxiety')}>
         <P>Pregabalin 75mg 2×/day with 65% improvement is meaningful progress. The remaining anxiety ties everything together: it worsens globus, disrupts sleep, makes tinnitus louder, and increases muscle tension in your back and foot.</P>
         <Ul>
           <Li><strong>Exercise = anxiolytic:</strong> Consistent training is one of the most evidence-backed anxiety reducers. Don't underestimate how much your gym routine helps your mental health.</Li>

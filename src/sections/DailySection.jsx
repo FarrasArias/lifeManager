@@ -21,56 +21,56 @@ const SCHEDULE = [
 ];
 
 const TAG_COLORS = {
-  Routine: '#e8d5b7', Diet: '#dbb2c9', Recovery: '#c9dbb2', Stool: '#dbb2c9',
-  Ergonomics: '#b2c9db', Sciatica: '#c9dbb2', Cardio: '#c9dbb2',
-  Training: '#b2c9db', Life: '#dbcfb2', Sleep: '#c9b2db',
+  Routine: '#dde8ff', Diet: '#8877fc', Recovery: '#56fcd8', Stool: '#8877fc',
+  Ergonomics: '#56d6fc', Sciatica: '#56fcd8', Cardio: '#56fcd8',
+  Training: '#56d6fc', Life: '#56fcc2', Sleep: '#aa88ff',
 };
 
 export default function DailySection() {
   return (
     <>
-      <Card title="Template Day — Training Day" color="#dbcfb2">
+      <Card title="Template Day — Training Day" color="#56fcc2">
         <P>This is your ideal training day. Non-training days: replace the 5:30 PM gym slot with hobby time, a longer walk, or rest. Everything else stays the same.</P>
         <div style={{ marginTop: 12 }}>
           {SCHEDULE.map((s, i) => (
-            <div key={i} style={{ display: 'flex', gap: 16, padding: '10px 0', borderBottom: i < SCHEDULE.length - 1 ? '1px solid #2a2520' : 'none', alignItems: 'flex-start' }}>
-              <div style={{ fontFamily: MONO, fontSize: 12, color: '#8a8278', minWidth: 80, paddingTop: 2 }}>{s.time}</div>
+            <div key={i} style={{ display: 'flex', gap: 16, padding: '10px 0', borderBottom: i < SCHEDULE.length - 1 ? '1px solid #141828' : 'none', alignItems: 'flex-start' }}>
+              <div style={{ fontFamily: MONO, fontSize: 12, color: '#3a4a6a', minWidth: 80, paddingTop: 2 }}>{s.time}</div>
               <div style={{ flex: 1 }}>
-                <div style={{ fontSize: 14, color: '#ccc5b9', marginBottom: 4 }}>{s.activity}</div>
-                <span style={{ fontSize: 11, fontFamily: MONO, color: TAG_COLORS[s.tag] || '#8a8278', background: '#1a1915', padding: '1px 8px', borderRadius: 2 }}>{s.tag}</span>
+                <div style={{ fontSize: 14, color: '#a0b0cc', marginBottom: 4 }}>{s.activity}</div>
+                <span style={{ fontSize: 11, fontFamily: MONO, color: TAG_COLORS[s.tag] || '#3a4a6a', background: '#0a0d16', padding: '1px 8px', borderRadius: 2 }}>{s.tag}</span>
               </div>
             </div>
           ))}
         </div>
       </Card>
 
-      <Card title="Weekly Structure" color="#dbcfb2">
+      <Card title="Weekly Structure" color="#56fcc2">
         <div style={{ overflowX: 'auto' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13, fontFamily: MONO }}>
             <thead>
-              <tr style={{ borderBottom: '1px solid #3a352e' }}>
+              <tr style={{ borderBottom: '1px solid #1e2640' }}>
                 {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map(d => (
-                  <th key={d} style={{ padding: '8px 6px', color: '#8a8278', fontWeight: 400, textAlign: 'center' }}>{d}</th>
+                  <th key={d} style={{ padding: '8px 6px', color: '#3a4a6a', fontWeight: 400, textAlign: 'center' }}>{d}</th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              <tr style={{ borderBottom: '1px solid #2a2520' }}>
+              <tr style={{ borderBottom: '1px solid #141828' }}>
                 {[
-                  { text: 'Push + Core', color: '#b2c9db' },
-                  { text: 'Rest / Walk', color: '#6a6358' },
-                  { text: 'Pull + Core', color: '#b2c9db' },
-                  { text: 'Rest / Walk', color: '#6a6358' },
-                  { text: 'Legs + Core', color: '#b2c9db' },
-                  { text: 'Glutes + Core', color: '#b2c9db' },
-                  { text: 'Full Rest', color: '#6a6358' },
+                  { text: 'Push + Core', color: '#56d6fc' },
+                  { text: 'Rest / Walk', color: '#6a7a9c' },
+                  { text: 'Pull + Core', color: '#56d6fc' },
+                  { text: 'Rest / Walk', color: '#6a7a9c' },
+                  { text: 'Legs + Core', color: '#56d6fc' },
+                  { text: 'Glutes + Core', color: '#56d6fc' },
+                  { text: 'Full Rest', color: '#6a7a9c' },
                 ].map((d, i) => (
                   <td key={i} style={{ padding: '10px 6px', textAlign: 'center', color: d.color, fontSize: 11 }}>{d.text}</td>
                 ))}
               </tr>
               <tr>
                 {['Physio daily', 'Physio daily', 'Meal prep', 'Physio daily', 'Physio daily', 'Physio daily', 'Meal prep'].map((d, i) => (
-                  <td key={i} style={{ padding: '6px', textAlign: 'center', color: '#c9dbb2', fontSize: 10 }}>{d}</td>
+                  <td key={i} style={{ padding: '6px', textAlign: 'center', color: '#56fcd8', fontSize: 10 }}>{d}</td>
                 ))}
               </tr>
             </tbody>
@@ -79,7 +79,7 @@ export default function DailySection() {
         <P style={{ marginTop: 12 }}>Ramen day: any day — adjust other meals to be lighter. Rest days are still active recovery (walking + physio). Never skip physio on rest days — that's when it matters most.</P>
       </Card>
 
-      <Card title="Monthly Check-Ins" color="#dbcfb2">
+      <Card title="Monthly Check-Ins" color="#56fcc2">
         <P>Every 4 weeks, do a brief self-assessment. Prevents drift and catches problems early:</P>
         <Ul>
           <Li><strong>Pain levels:</strong> Rate sciatica, foot, elbow, throat on 0–10. Trending down? (Use the Daily Tracker tab for this.)</Li>
