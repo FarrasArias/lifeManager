@@ -22,8 +22,8 @@ export const DAY2 = [
   { id: 'd2-3', name: 'Reverse cable fly',                    sets: 3, repMin: 12, repMax: 18, defaultWeight: '5kg',  hasWeight: true,  notes: 'Light, rear delt focus' },
   { id: 'd2-4', name: 'Straight-arm pulldown',                sets: 2, repMin: 12, repMax: 15, defaultWeight: '14kg', hasWeight: true,  notes: 'Slight lean, long range' },
   { id: 'd2-5', name: 'Cable curls',                          sets: 3, repMin: 10, repMax: 15, defaultWeight: '18kg', hasWeight: true,  notes: 'No full extension (elbow rule)' },
-  { id: 'd2-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 10, repMax: 10, defaultWeight: '',     hasWeight: false, notes: 'Hold 3s at top, brace core (each side)' },
-  { id: 'd2-7', name: 'Dead bugs (core)',                     sets: 2, repMin: 8,  repMax: 8,  defaultWeight: '',     hasWeight: false, notes: 'Opposite arm/leg, press low back down' },
+  { id: 'd2-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Hold 3s at top, brace core (each side)' },
+  { id: 'd2-7', name: 'Dead bugs (core)',                     sets: 2, repMin: 8,  repMax: 12,  defaultWeight: '',     hasWeight: false, notes: 'Opposite arm/leg, press low back down' },
 ];
 
 export const DAY3 = [
@@ -33,8 +33,8 @@ export const DAY3 = [
   { id: 'd3-3', name: 'Seated leg curl',                      sets: 3, repMin: 10, repMax: 15, defaultWeight: '25kg', hasWeight: true,  notes: 'Slow eccentric, hamstring focus' },
   { id: 'd3-4', name: 'Seated calf raise',                    sets: 3, repMin: 15, repMax: 20, defaultWeight: '27kg', hasWeight: true,  notes: 'Seated preferred (less foot load)' },
   { id: 'd3-5', name: 'Tibialis raises',                      sets: 2, repMin: 15, repMax: 25, defaultWeight: '',     hasWeight: false, notes: 'Critical for foot/ankle stability' },
-  { id: 'd3-6', name: 'Glute bridge (bodyweight)',            sets: 3, repMin: 12, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Squeeze glutes at top, hold 2s' },
-  { id: 'd3-7', name: 'Pallof press (core)',                  sets: 2, repMin: 10, repMax: 10, defaultWeight: '18kg', hasWeight: true,  notes: 'Alternate side focus' },
+  { id: 'd3-6', name: 'Glute bridge (bodyweight)',            sets: 3, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Squeeze glutes at top, hold 2s' },
+  { id: 'd3-7', name: 'Pallof press (core)',                  sets: 2, repMin: 8, repMax: 12, defaultWeight: '18kg', hasWeight: true,  notes: 'Alternate side focus' },
 ];
 
 export const DAY4 = [
@@ -43,13 +43,13 @@ export const DAY4 = [
   { id: 'd4-2', name: 'DB Romanian deadlift',                 sets: 3, repMin: 8,  repMax: 12, defaultWeight: 'bar',  hasWeight: true,  notes: 'Start light, add weight slowly' },
   { id: 'd4-3', name: 'Cable kickbacks',                      sets: 3, repMin: 15, repMax: 20, defaultWeight: '18kg', hasWeight: true,  notes: 'Glute isolation, don\'t arch back (each side)' },
   { id: 'd4-4', name: 'Cable abduction',                      sets: 3, repMin: 15, repMax: 25, defaultWeight: '9kg',  hasWeight: true,  notes: 'Side-lying or standing, glute medius' },
-  { id: 'd4-5', name: 'Dead bugs (core)',                     sets: 2, repMin: 10, repMax: 10, defaultWeight: '',     hasWeight: false, notes: 'Core finisher, slow and controlled' },
-  { id: 'd4-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 10, repMax: 10, defaultWeight: '',     hasWeight: false, notes: 'Anti-extension focus' },
+  { id: 'd4-5', name: 'Dead bugs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Core finisher, slow and controlled' },
+  { id: 'd4-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Anti-extension focus' },
 ];
 
 export const GYM_DAYS = [
-  { id: 'day1', label: 'Day 1 — PUSH + Core',   tags: ['Chest', 'Shoulders', 'Triceps', 'Core'], exercises: DAY1 },
-  { id: 'day2', label: 'Day 2 — PULL + Core',   tags: ['Back', 'Biceps', 'Rear delts', 'Core'], exercises: DAY2 },
-  { id: 'day3', label: 'Day 3 — LEGS + Core',   tags: ['Quads', 'Hamstrings', 'Calves', 'Core'], exercises: DAY3 },
+    { id: 'day1', label: 'Day 1 — PUSH + Core', tags: ['Chest', 'Shoulders', 'Triceps', 'Core'], exercises: DAY1 },
+    { id: 'day2', label: 'Day 2 — LEGS + Core', tags: ['Quads', 'Hamstrings', 'Calves', 'Core'], exercises: DAY3 },
+  { id: 'day3', label: 'Day 3 — PULL + Core',   tags: ['Back', 'Biceps', 'Rear delts', 'Core'], exercises: DAY2 },
   { id: 'day4', label: 'Day 4 — GLUTES + Core', tags: ['Glutes', 'Hamstrings', 'Core'], exercises: DAY4 },
 ];
