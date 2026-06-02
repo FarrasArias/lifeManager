@@ -5,46 +5,70 @@ export const WARMUP = [
   { id: 'wu-3', name: 'Cat-cow',           sets: 1, repMin: 8,  repMax: 8,  defaultWeight: '',           hasWeight: false, notes: 'Move with breath, gentle mobilization' },
 ];
 
+// ── Strength-focused rep ranges ──────────────────────────────────────────────
+// Main compounds:   3–5 reps, 5 sets  → pure strength zone
+// Secondary compounds: 5–7 reps, 4 sets → strength-accessory zone
+// Isolation / elbow-sensitive: 8–10 reps, 3 sets → joint-safe, still hypertrophy
+// Rehab (core/tibialis/glute bridge): fixed rep counts, focus on quality not load
+
 export const DAY1 = [
-  { id: 'd1-0', name: 'Cable chest press (neutral grip)',     sets: 4, repMin: 8,  repMax: 12, defaultWeight: '9kg',  hasWeight: true,  notes: 'Staggered stance, don\'t lock elbows' },
-  { id: 'd1-1', name: 'DB bench press (neutral grip)',        sets: 3, repMin: 8,  repMax: 12, defaultWeight: '10lb', hasWeight: true,  notes: 'Light/strict, stop before lockout' },
-  { id: 'd1-2', name: 'Cable fly',                           sets: 3, repMin: 8, repMax: 15, defaultWeight: '9kg',  hasWeight: true,  notes: 'Constant tension, slow eccentric' },
-  { id: 'd1-3', name: 'Cable row (light, postural)',          sets: 3, repMin: 8, repMax: 15, defaultWeight: '',     hasWeight: true,  notes: 'Elbows 30–45°, squeeze 1s at top' },
-  { id: 'd1-4', name: 'Cable lateral raise',                  sets: 3, repMin: 8, repMax: 18, defaultWeight: '5kg',  hasWeight: true,  notes: 'Lead with pinky, controlled' },
-  { id: 'd1-5', name: 'Triceps rope pressdown',               sets: 3, repMin: 8, repMax: 15, defaultWeight: '14kg', hasWeight: true,  notes: 'Don\'t snap to full lockout (elbow)' },
-  { id: 'd1-6', name: 'Pallof press (core)',                  sets: 3, repMin: 8, repMax: 12, defaultWeight: '18kg', hasWeight: true,  notes: 'Anti-rotation, brace transverse abs' },
+  // ── Main push compound ──
+  { id: 'd1-0', name: 'Cable chest press (neutral grip)',  sets: 5, repMin: 3, repMax: 5, defaultWeight: '11kg', hasWeight: true,  notes: 'Main strength lift. Staggered stance, don\'t lock elbows' },
+  // ── Secondary push ──
+  { id: 'd1-1', name: 'DB bench press (neutral grip)',     sets: 4, repMin: 4, repMax: 6, defaultWeight: '12lb', hasWeight: true,  notes: 'ELBOW: stop 10° before lockout, never go to failure' },
+  // ── Isolation — joint-safe rep range ──
+  { id: 'd1-2', name: 'Cable fly',                        sets: 3, repMin: 8, repMax: 10, defaultWeight: '9kg',  hasWeight: true,  notes: 'Isolation — constant tension, 2s eccentric' },
+  { id: 'd1-3', name: 'Cable row (postural)',              sets: 3, repMin: 8, repMax: 10, defaultWeight: '15kg', hasWeight: true,  notes: 'Postural correction — elbows 30–45°, squeeze 1s' },
+  { id: 'd1-4', name: 'Cable lateral raise',               sets: 3, repMin: 10, repMax: 12, defaultWeight: '5kg', hasWeight: true,  notes: 'Isolation — lead with pinky, no momentum' },
+  // ── ELBOW: intentionally kept in moderate range ──
+  { id: 'd1-5', name: 'Triceps rope pressdown',            sets: 3, repMin: 8,  repMax: 10, defaultWeight: '12kg', hasWeight: true,  notes: 'ELBOW: moderate weight only, no full lockout' },
+  // ── Core rehab ──
+  { id: 'd1-6', name: 'Pallof press (core)',               sets: 3, repMin: 8,  repMax: 10, defaultWeight: '14kg', hasWeight: true,  notes: 'Anti-rotation — brace transverse abs, slow and controlled' },
 ];
 
 export const DAY2 = [
-  { id: 'd2-0', name: 'Low cable row',                       sets: 4, repMin: 8,  repMax: 12, defaultWeight: '23kg', hasWeight: true,  notes: 'Neutral grip preferred, no jerking' },
-  { id: 'd2-1', name: 'Lat pulldown (neutral grip)',          sets: 3, repMin: 8,  repMax: 12, defaultWeight: '23kg', hasWeight: true,  notes: 'Stop short of lockout, controlled' },
-  { id: 'd2-2', name: 'Single-arm cable pulldown',            sets: 2, repMin: 10, repMax: 12, defaultWeight: '14kg', hasWeight: true,  notes: 'Strict form, feel the lat (each side)' },
-  { id: 'd2-3', name: 'Reverse cable fly',                    sets: 3, repMin: 12, repMax: 18, defaultWeight: '5kg',  hasWeight: true,  notes: 'Light, rear delt focus' },
-  { id: 'd2-4', name: 'Straight-arm pulldown',                sets: 2, repMin: 12, repMax: 15, defaultWeight: '14kg', hasWeight: true,  notes: 'Slight lean, long range' },
-  { id: 'd2-5', name: 'Cable curls',                          sets: 3, repMin: 10, repMax: 15, defaultWeight: '18kg', hasWeight: true,  notes: 'No full extension (elbow rule)' },
-  { id: 'd2-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Hold 3s at top, brace core (each side)' },
-  { id: 'd2-7', name: 'Dead bugs (core)',                     sets: 2, repMin: 8,  repMax: 12,  defaultWeight: '',     hasWeight: false, notes: 'Opposite arm/leg, press low back down' },
+  // ── Main pull compound ──
+  { id: 'd2-0', name: 'Low cable row',                    sets: 5, repMin: 3, repMax: 5, defaultWeight: '25kg', hasWeight: true,  notes: 'Main strength lift. Neutral grip, chest up, no jerking' },
+  // ── Secondary pull ──
+  { id: 'd2-1', name: 'Lat pulldown (neutral grip)',       sets: 4, repMin: 4, repMax: 6, defaultWeight: '25kg', hasWeight: true,  notes: 'Drive elbows to hips, stop 10° before full extension' },
+  { id: 'd2-2', name: 'Single-arm cable pulldown',         sets: 3, repMin: 5, repMax: 7, defaultWeight: '16kg', hasWeight: true,  notes: 'Strict form, feel the lat fully (each side)' },
+  { id: 'd2-3', name: 'Straight-arm pulldown',             sets: 3, repMin: 6, repMax: 8, defaultWeight: '14kg', hasWeight: true,  notes: 'Slight forward lean, long arc, squeeze at bottom' },
+  // ── Isolation / postural ──
+  { id: 'd2-4', name: 'Reverse cable fly',                 sets: 3, repMin: 10, repMax: 12, defaultWeight: '5kg', hasWeight: true,  notes: 'Postural — light, rear delt focus, no swinging' },
+  // ── ELBOW: intentionally kept in moderate range ──
+  { id: 'd2-5', name: 'Cable curls',                       sets: 3, repMin: 8,  repMax: 10, defaultWeight: '16kg', hasWeight: true,  notes: 'ELBOW: no full extension at bottom, moderate load only' },
+  // ── Core rehab ──
+  { id: 'd2-6', name: 'Bird-dogs (core)',                  sets: 3, repMin: 8,  repMax: 8,  defaultWeight: '',    hasWeight: false, notes: 'Hold 3s at top, brace core — anti-extension (each side)' },
+  { id: 'd2-7', name: 'Dead bugs (core)',                  sets: 3, repMin: 8,  repMax: 8,  defaultWeight: '',    hasWeight: false, notes: 'Press low back into floor, opposite arm/leg only' },
 ];
 
 export const DAY3 = [
-  { id: 'd3-0', name: 'Leg press',                            sets: 4, repMin: 8,  repMax: 12, defaultWeight: '45kg', hasWeight: true,  notes: 'Foot position mid-high, don\'t lock knees' },
-  { id: 'd3-1', name: 'Seated leg extension',                 sets: 3, repMin: 12, repMax: 15, defaultWeight: '18kg', hasWeight: true,  notes: 'Controlled, don\'t snap to lockout' },
-  { id: 'd3-2', name: 'Split squat (short ROM, support)',     sets: 2, repMin: 10, repMax: 12, defaultWeight: 'BW',   hasWeight: false, notes: 'Skip if foot flares > 3/10 pain' },
-  { id: 'd3-3', name: 'Seated leg curl',                      sets: 3, repMin: 10, repMax: 15, defaultWeight: '25kg', hasWeight: true,  notes: 'Slow eccentric, hamstring focus' },
-  { id: 'd3-4', name: 'Seated calf raise',                    sets: 3, repMin: 15, repMax: 20, defaultWeight: '27kg', hasWeight: true,  notes: 'Seated preferred (less foot load)' },
-  { id: 'd3-5', name: 'Tibialis raises',                      sets: 2, repMin: 15, repMax: 25, defaultWeight: '',     hasWeight: false, notes: 'Critical for foot/ankle stability' },
-  { id: 'd3-6', name: 'Glute bridge (bodyweight)',            sets: 3, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Squeeze glutes at top, hold 2s' },
-  { id: 'd3-7', name: 'Pallof press (core)',                  sets: 2, repMin: 8, repMax: 12, defaultWeight: '18kg', hasWeight: true,  notes: 'Alternate side focus' },
+  // ── Main leg compound — conservative upper limit due to sciatica ──
+  { id: 'd3-0', name: 'Leg press',                         sets: 5, repMin: 4, repMax: 6, defaultWeight: '55kg', hasWeight: true,  notes: 'SCIATICA: no spinal rounding, foot mid-high, don\'t lock knees' },
+  // ── Secondary legs ──
+  { id: 'd3-1', name: 'Seated leg curl',                   sets: 4, repMin: 5, repMax: 7, defaultWeight: '27kg', hasWeight: true,  notes: 'Slow eccentric (3s down), hamstring control' },
+  { id: 'd3-2', name: 'Seated leg extension',              sets: 3, repMin: 6, repMax: 8, defaultWeight: '20kg', hasWeight: true,  notes: 'Stop 10° before lockout, controlled — no snapping' },
+  // ── Single-leg (pain dependent) ──
+  { id: 'd3-3', name: 'Split squat (short ROM, support)',  sets: 3, repMin: 5, repMax: 7, defaultWeight: 'BW',   hasWeight: false, notes: 'SCIATICA/FOOT: skip entirely if >3/10 pain, replace with leg press set' },
+  // ── Rehab & stabilisers ──
+  { id: 'd3-4', name: 'Seated calf raise',                 sets: 3, repMin: 10, repMax: 12, defaultWeight: '30kg', hasWeight: true,  notes: 'Seated preferred — calves respond to moderate rep ranges' },
+  { id: 'd3-5', name: 'Tibialis raises',                   sets: 2, repMin: 15, repMax: 20, defaultWeight: '',    hasWeight: false, notes: 'REHAB: foot/ankle stability, don\'t add weight' },
+  { id: 'd3-6', name: 'Glute bridge (bodyweight)',         sets: 3, repMin: 10, repMax: 12, defaultWeight: '',    hasWeight: false, notes: 'REHAB: glute activation + core stability, hold 2s at top' },
+  { id: 'd3-7', name: 'Pallof press (core)',               sets: 2, repMin: 8,  repMax: 10, defaultWeight: '14kg', hasWeight: true,  notes: 'Anti-rotation — alternate sides' },
 ];
 
 export const DAY4 = [
-  { id: 'd4-0', name: 'Hip thrust (bench + DB/BB)',           sets: 4, repMin: 8,  repMax: 12, defaultWeight: '35lb', hasWeight: true,  notes: 'Full squeeze at top, heavy is ok' },
-  { id: 'd4-1', name: 'Cable pull-through',                   sets: 3, repMin: 12, repMax: 15, defaultWeight: '23kg', hasWeight: true,  notes: 'Hinge pattern, squeeze glutes' },
-  { id: 'd4-2', name: 'DB Romanian deadlift',                 sets: 3, repMin: 8,  repMax: 12, defaultWeight: 'bar',  hasWeight: true,  notes: 'Start light, add weight slowly' },
-  { id: 'd4-3', name: 'Cable kickbacks',                      sets: 3, repMin: 15, repMax: 20, defaultWeight: '18kg', hasWeight: true,  notes: 'Glute isolation, don\'t arch back (each side)' },
-  { id: 'd4-4', name: 'Cable abduction',                      sets: 3, repMin: 15, repMax: 25, defaultWeight: '9kg',  hasWeight: true,  notes: 'Side-lying or standing, glute medius' },
-  { id: 'd4-5', name: 'Dead bugs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Core finisher, slow and controlled' },
-  { id: 'd4-6', name: 'Bird-dogs (core)',                     sets: 2, repMin: 8, repMax: 12, defaultWeight: '',     hasWeight: false, notes: 'Anti-extension focus' },
+  // ── Main glute compound — safest heavy lift for sciatica ──
+  { id: 'd4-0', name: 'Hip thrust (bench + DB/BB)',        sets: 5, repMin: 4, repMax: 6, defaultWeight: '25kg', hasWeight: true,  notes: 'Best strength lift for you — glutes, no spinal compression. Full squeeze at top' },
+  // ── Secondary hinge ──
+  { id: 'd4-1', name: 'DB Romanian deadlift',              sets: 4, repMin: 4, repMax: 6, defaultWeight: '10kg', hasWeight: true,  notes: 'SCIATICA: hip hinge must be perfect — never round lumbar. Start very light' },
+  { id: 'd4-2', name: 'Cable pull-through',                sets: 3, repMin: 6, repMax: 8, defaultWeight: '20kg', hasWeight: true,  notes: 'Hinge pattern reinforcement — squeeze glutes at top' },
+  // ── Isolation ──
+  { id: 'd4-3', name: 'Cable kickbacks',                   sets: 3, repMin: 10, repMax: 12, defaultWeight: '16kg', hasWeight: true,  notes: 'Glute isolation — don\'t arch back (each side)' },
+  { id: 'd4-4', name: 'Cable abduction',                   sets: 3, repMin: 12, repMax: 15, defaultWeight: '9kg',  hasWeight: true,  notes: 'Glute medius — slow and controlled' },
+  // ── Core rehab ──
+  { id: 'd4-5', name: 'Dead bugs (core)',                  sets: 2, repMin: 8,  repMax: 8,  defaultWeight: '',    hasWeight: false, notes: 'Core finisher — slow, controlled, press low back down' },
+  { id: 'd4-6', name: 'Bird-dogs (core)',                  sets: 2, repMin: 8,  repMax: 8,  defaultWeight: '',    hasWeight: false, notes: 'Anti-extension — hold 3s at top' },
 ];
 
 export const GYM_DAYS = [
