@@ -7,21 +7,30 @@ import { GYM_DAYS, WARMUP } from '../constants/exercises';
 function initProgress(exercises) {
   const out = {};
   exercises.forEach(ex => {
-    out[ex.id] = { weight: ex.defaultWeight, reps: ex.repMin, sets: ex.sets };
+    out[ex.id] = {
+      weight: ex.defaultWeight,
+      reps: ex.reps,
+      sets: ex.sets,
+      userNotes: '',
+      readyToIncrease: false,
+    };
   });
   return out;
 }
 
 function ExerciseRow({ ex, progress, onUpdate }) {
-  const p = progress[ex.id] || { weight: ex.defaultWeight, reps: ex.repMin, sets: ex.sets };
+  const p = progress[ex.id] || {
+    weight: ex.defaultWeight, reps: ex.reps, sets: ex.sets,
+    userNotes: '', readyToIncrease: false,
+  };
   const currentSets = p.sets ?? ex.sets;
-  const atMax = p.reps >= ex.repMax;
   const [editingWeight, setEditingWeight] = useState(false);
   const [weightInput, setWeightInput] = useState(p.weight);
 
-  const incReps = () => onUpdate(ex.id, { ...p, reps: Math.min(p.reps + 1, ex.repMax) });
-  const decReps = () => onUpdate(ex.id, { ...p, reps: Math.max(p.reps - 1, ex.repMin) });
-  const incSets = () => onUpdate(ex.id, { ...p, sets: Math.min(currentSets + 1, 10) });
+  // No clamping — fully open reps/sets
+  const incReps = () => onUpdate(ex.id, { ...p, reps: p.reps + 1 });
+  const decReps = () => onUpdate(ex.id, { ...p, reps: Math.max(p.reps - 1, 0) });
+  const incSets = () => onUpdate(ex.id, { ...p, sets: currentSets + 1 });
   const decSets = () => onUpdate(ex.id, { ...p, sets: Math.max(currentSets - 1, 1) });
 
   const saveWeight = () => {
@@ -29,18 +38,30 @@ function ExerciseRow({ ex, progress, onUpdate }) {
     setEditingWeight(false);
   };
 
+  const toggleReady = () => {
+    onUpdate(ex.id, { ...p, readyToIncrease: !p.readyToIncrease });
+  };
+
+  const updateNotes = (val) => {
+    onUpdate(ex.id, { ...p, userNotes: val });
+  };
+
   return (
     <div style={{
       padding: '12px 0', borderBottom: '1px solid #141828',
       display: 'flex', flexDirection: 'column', gap: 8,
     }}>
+      {/* Guide (ideal reps + RIR) */}
+      {ex.guide && (
+        <div style={{ fontSize: 11, color: '#3d8b6e', fontFamily: MONO }}>
+          ▸ {ex.guide}
+        </div>
+      )}
+
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 8 }}>
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 14, color: '#dde8ff' }}>{ex.name}</div>
           <div style={{ fontSize: 11, color: '#6a7a9c', fontFamily: MONO, marginTop: 2 }}>{ex.notes}</div>
-        </div>
-        <div style={{ fontSize: 11, color: '#6a7a9c', fontFamily: MONO, textAlign: 'right', whiteSpace: 'nowrap' }}>
-          {ex.repMin}–{ex.repMax} reps
         </div>
       </div>
 
@@ -58,7 +79,7 @@ function ExerciseRow({ ex, progress, onUpdate }) {
           <span style={{ fontSize: 11, color: '#6a7a9c', fontFamily: MONO }}>REPS</span>
           <button onClick={decReps} style={ctrlBtn}>−</button>
           <span style={{
-            fontSize: 18, color: atMax ? '#56fcd8' : '#dde8ff',
+            fontSize: 18, color: '#dde8ff',
             fontFamily: MONO, minWidth: 28, textAlign: 'center',
           }}>{p.reps}</span>
           <button onClick={incReps} style={ctrlBtn}>+</button>
@@ -94,13 +115,33 @@ function ExerciseRow({ ex, progress, onUpdate }) {
           </div>
         )}
 
-        {atMax && (
-          <span style={{
-            fontSize: 11, fontFamily: MONO, color: '#56fcd8',
-            background: '#082018', border: '1px solid #4a8c5c44',
+        {/* Manual "ready to increase" toggle */}
+        <button
+          onClick={toggleReady}
+          style={{
+            fontSize: 11, fontFamily: MONO, cursor: 'pointer',
+            background: p.readyToIncrease ? '#082018' : '#0f1320',
+            border: `1px solid ${p.readyToIncrease ? '#4a8c5c' : '#1e2640'}`,
+            color: p.readyToIncrease ? '#56fcd8' : '#6a7a9c',
             padding: '2px 8px', borderRadius: 2,
-          }}>⬆ ready to increase weight</span>
-        )}
+          }}
+        >{p.readyToIncrease ? '⬆ increase next' : '⬆ flag'}</button>
+      </div>
+
+      {/* User notes input */}
+      <div style={{ marginTop: 2 }}>
+        <input
+          type="text"
+          placeholder="Notes…"
+          value={p.userNotes || ''}
+          onChange={e => updateNotes(e.target.value)}
+          style={{
+            width: '100%', boxSizing: 'border-box',
+            background: '#0a0d16', border: '1px solid #1e2640', color: '#a0b0cc',
+            padding: '5px 8px', fontSize: 12, fontFamily: MONO, borderRadius: 2,
+            outline: 'none',
+          }}
+        />
       </div>
     </div>
   );
@@ -116,14 +157,11 @@ const ctrlBtn = {
 function WarmupSection() {
   return (
     <div>
-      <div style={{ fontSize: 12, fontFamily: MONO, color: '#6a7a9c', marginBottom: 10 }}>
-        + 5 min stationary bike if available
-      </div>
       {WARMUP.map(ex => (
         <div key={ex.id} style={{ padding: '8px 0', borderBottom: '1px solid #141828', fontSize: 13 }}>
           <div style={{ color: '#dde8ff' }}>{ex.name}</div>
           <div style={{ color: '#6a7a9c', fontSize: 11, fontFamily: MONO }}>
-            {ex.sets} × {ex.repMin} &nbsp;·&nbsp; {ex.notes}
+            {ex.sets} × {ex.reps} &nbsp;·&nbsp; {ex.notes}
           </div>
         </div>
       ))}
@@ -149,17 +187,20 @@ export default function GymTracker() {
 
   return (
     <>
-      <Card title="Progressive Overload Tracker" color="#56d6fc">
-        <P>Add 1 rep per exercise per week. When a row turns teal (max reps hit), tap the weight badge to update it — drop reps back to the minimum and repeat. All values persist locally.</P>
+      <Card title="Strength-Focused Tracker" color="#56d6fc">
+        <P>Track sets, reps & weight freely — no hard limits. The green guide above each exercise shows the ideal rep range and RIR target. Tap ⬆ flag when you feel ready to increase weight next session.</P>
         <div style={{ background: '#0e1530', padding: 14, borderRadius: 2, border: '1px solid #0e1c30', marginBottom: 12 }}>
-          <div style={{ fontSize: 12, fontFamily: MONO, color: '#56d6fc', marginBottom: 6 }}>PROGRESSION RULE</div>
+          <div style={{ fontSize: 12, fontFamily: MONO, color: '#56d6fc', marginBottom: 6 }}>YOUR RULES</div>
           <div style={{ fontSize: 13, color: '#a0b0cc' }}>
-            Hit max reps on all sets → increase weight → drop back to min reps. One rep per week max.
+            ⦿ Chin tucked on every exercise — cervical health first.<br />
+            ⦿ LEFT ARM: stop if cold/tingling. Note which exercises trigger it.<br />
+            ⦿ Compounds RIR 2-3 · Isolation RIR 0-1 · Rehab/core controlled.
           </div>
         </div>
         <Tag bg="#0e1828">4 days/week</Tag>
-        <Tag bg="#0e0e28">~60 min/session</Tag>
-        <Tag bg="#100e1c">Core every day</Tag>
+        <Tag bg="#0e0e28">~60 min</Tag>
+        <Tag bg="#100e1c">Core every session</Tag>
+        <Tag bg="#0e1828">Cervical-safe</Tag>
       </Card>
 
       <div style={{ marginBottom: 20 }}>
@@ -176,7 +217,7 @@ export default function GymTracker() {
                 borderBottom: activeDay === i ? '2px solid #56d6fc' : '2px solid transparent',
               }}
             >
-              Day {i + 1}
+              {d.label.split('—')[0].trim()}
             </button>
           ))}
         </div>
@@ -212,10 +253,10 @@ export default function GymTracker() {
       </Card>
 
       <Card title="Cardio — Gradual Reintroduction" color="#56d6fc">
-        <P><strong>Weeks 1–6:</strong> Walking only. 15–20 min daily on flat ground.</P>
-        <P><strong>Weeks 7–12:</strong> Stationary bike, 15–20 min, 2×/week, low resistance. Recumbent preferred.</P>
-        <P><strong>Weeks 13+:</strong> Swimming if physio approves. 20 min, 2×/week.</P>
-        <P><strong>Running:</strong> Only after physio clearance + 4 weeks pain-free. Walk/jog intervals to start.</P>
+        <P><strong>Current phase:</strong> Recumbent bike 5 min warm-up before every gym session.</P>
+        <P><strong>Next step:</strong> Add 2×/week standalone sessions, 15-20 min, low resistance.</P>
+        <P><strong>Later:</strong> Swimming if physio approves. 20 min, 2×/week.</P>
+        <P><strong>Running:</strong> Only after physio clearance + 4 weeks pain-free.</P>
       </Card>
     </>
   );

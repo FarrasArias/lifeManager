@@ -1,0 +1,976 @@
+================================================================================
+                        MASTER RECOVERY & STRENGTH PLAN
+                     Rafael Arias — Updated 2026-08-20 v2
+================================================================================
+
+    This plan integrates gym training, physio rehab, cardio, and nutrition
+    into a single 2-hour daily program designed around your specific medical
+    conditions. Everything here is backed by research cited at the bottom.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 0 — YOUR MEDICAL PROFILE (what we're working around)              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  LUMBAR SPINE (MRI June 27, 2026):
+  ─────────────────────────────────
+  • Rectification of lumbar lordosis + lateral curve (right, apex L3)
+  • Disc bulges at L3-L4, L4-L5, L5-S1 (Pfirrmann modified grade 3)
+  • ~15% spinal canal narrowing + ~20% neuroforaminal narrowing
+  • Facet joint hypertrophy (hipertrofia facetaria)
+  • Interfacet synovial effusion (derrame sinovial interfacetario)
+  • Bone spurs (espículas óseas)
+  • Modic Type 1 endplate changes (active inflammatory stage)
+  • Moderate ligamentum flavum thickening
+  • CRITICAL: Thinned paraspinal muscles + both psoas muscles with
+    fatty infiltration → these muscles MUST be rebuilt carefully
+  • 6mm hemangioma at L5 (incidental, not clinically relevant)
+  • Possible bilateral nerve root contact
+
+  CERVICAL SPINE (X-ray):
+  ───────────────────────
+  • Cervical lordosis rectification
+  • C2-C3 anterolisthesis Grade I Meyerding
+  • C3-C4 retrolisthesis Grade I Meyerding
+  • Scoliotic attitude to the left (Cobb 7°)
+  • Facet joint sclerosis
+  • Uncovertebral arthrosis (uncartrosis)
+
+  LEFT ARM / NERVE (new — needs physio confirmation):
+  ───────────────────────────────────────────────────
+  • Pain in shoulder/arm area
+  • Coldness on outside of left elbow
+  • Likely radial nerve involvement (lower armpit → arm → outside
+    elbow → hand)
+  • Possible ulnar/cubital nerve component
+  • NOTE: Given your cervical findings (C2-C4 slippage, facet sclerosis,
+    uncovertebral arthrosis), this arm pain could ALSO be cervical
+    radiculopathy — nerve compression at the neck level radiating down.
+    Mention this to your physio. They may want a cervical MRI or nerve
+    conduction study to confirm the source.
+
+  CURRENT MEDICATIONS/SUPPLEMENTS:
+  ────────────────────────────────
+  • Pregabalin (nerve pain management)
+  • Vitamin D
+  • Magnesium
+  • Creatine
+  • Whey protein
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 1 — TRAINING PHILOSOPHY SHIFT                                     ║
+║  Why you should move to moderate loads + higher reps                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  YOU SAID: "I'm reaching the point where I've been increasing weight to
+  a point where I'm close to getting hurt instead of close to failure."
+
+  THE RESEARCH SAYS YOU'RE RIGHT TO BE CONCERNED:
+
+  1. MUSCLE GROWTH IS REP-RANGE INDEPENDENT (when effort is equal)
+     A 2024 meta-analysis of 47 studies found NO significant difference
+     in muscle hypertrophy between low-load (15-30 reps) and high-load
+     (6-12 reps) when sets are taken close to failure. What matters is
+     EFFORT, not load.
+
+  2. MODERATE REPS (8-15) ARE THE SWEET SPOT FOR YOUR SITUATION
+     • Heavy enough to build real strength
+     • Light enough that joints, discs, and nerves aren't crushed
+     • Easier to push near failure safely (form doesn't collapse)
+     • Lower injury risk with spinal compression issues
+
+  3. REPS IN RESERVE (RIR) — YOUR NEW INTENSITY TOOL
+     Instead of chasing max weight, use RIR:
+     ┌──────────────────────────────────────────────────────────┐
+     │  Compound lifts (cables/machines): Stop at 2-3 RIR      │
+     │  Secondary compounds:              Stop at 1-2 RIR      │
+     │  Isolation exercises:               Push to 0-1 RIR      │
+     │  NEVER train to absolute failure on spinal-loading moves │
+     └──────────────────────────────────────────────────────────┘
+
+  4. WHY THIS IS SAFER FOR YOUR SPINE
+     Research shows spinal position deteriorates rapidly at failure on
+     compound movements. With disc bulges at L3-L5 and neuroforaminal
+     narrowing, even slight form breakdown under heavy load risks
+     worsening nerve root contact. Moderate loads with controlled form
+     let you push muscles hard while keeping your spine safe.
+
+  5. PROGRESSION RULE (UPDATED)
+     Old: Add weight when you hit max reps
+     New: Add reps first (8→10→12→15), THEN add small weight
+          increment (2-5kg) and drop back to 8 reps. Slower but
+          safer and equally effective for muscle growth.
+
+  6. MACHINES AND CABLES OVER FREE WEIGHTS (where possible)
+     Machines stabilize your spine, isolate target muscles, and remove
+     the spinal compression risk of positioning free weights. Your gym
+     already uses mostly cables — this is perfect for your situation.
+     The research confirms: machines allow you to strengthen arms/legs
+     without compressing your back.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 2 — NEW GYM ROUTINE (4 days/week)                                ║
+║  Moderate load, higher reps, spine-safe, machine/cable focused             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  KEY CHANGES FROM OLD ROUTINE:
+  • Rep ranges shifted from 3-5 (strength) to 8-15 (hypertrophy-safe)
+  • All compound lifts use cables or machines (no barbell on spine)
+  • RIR-based intensity instead of max-weight chasing
+  • DB exercises kept only where spine is fully supported
+  • Left arm exercises flagged with modifications for nerve issues
+  • Core work integrated but adjusted (no crunches/sit-ups)
+  • Day 4 changed from Glutes to Push/Pull Hybrid (2×/week upper body)
+  • Glute/leg rehab covered by physio sessions instead
+
+  CERVICAL RADICULOPATHY PRECAUTIONS (apply to ALL gym exercises):
+  ────────────────────────────────────────────────────────────────
+  • CHIN TUCKS between sets: Do 3-5 chin tucks during every rest
+    period. This decompresses the cervical spine and becomes a habit.
+  • HEAD POSITION: Never let head jut forward under load. Keep neck
+    neutral and chin slightly tucked during every exercise.
+  • NEUTRAL GRIP EVERYWHERE: Reduces nerve tension through the arm.
+    Already built into the routine below.
+  • LAT PULLDOWNS: Kept in (you like them, they don't aggravate).
+    Use neutral grip, stop 10° before full extension, keep neck
+    neutral — don't let chin poke forward as you pull.
+  • WATCH FOR RED FLAGS: If left arm symptoms worsen after any
+    specific exercise, that exercise is compressing the nerve
+    (at neck or arm level). Log it and drop it.
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ WARM-UP — EVERY SESSION (~8 min)                                    │
+  │ Do this before every gym day. Non-negotiable.                       │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  1. Recumbent bike easy pedal              5 min    RPE 3-4          │
+  │  2. Band face pulls                        2×12     light band       │
+  │     → Squeeze rear delts, no momentum                                │
+  │  3. Scap push-ups                          1×10                      │
+  │     → Slow protraction, activate serratus                            │
+  │  4. Cat-cow                                1×10                      │
+  │     → Move with breath, mobilize spine                               │
+  │  5. Dead bugs (unloaded)                   1×8                       │
+  │     → Activate deep core before lifting                              │
+  │                                                                      │
+  │  CERVICAL DECOMPRESSION (daily habit):                                │
+  │  6. Chin tucks                             1×10     hold 5s each    │
+  │     → Pull chin straight back ("double chin"), decompresses neck    │
+  │     → Do these BETWEEN EVERY SET during your workout too            │
+  │                                                                      │
+  │  LEFT ARM PRE-WARMUP (until nerve issue resolves):                   │
+  │  7. Radial nerve glide (gentle)            1×8                       │
+  │     → See physio nerve section below                                 │
+  │  8. Ulnar nerve glide (gentle)             1×8                       │
+  │     → See physio nerve section below                                 │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ DAY 1 — PUSH (Chest, Shoulders, Triceps)             ~50 min        │
+  │ Tags: Chest, Shoulders, Triceps                                      │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  1. Cable chest press (neutral grip)       3×10-12   RIR 2-3        │
+  │     Start: 18kg                                                      │
+  │     → Staggered stance, DON'T lock elbows                           │
+  │     → Neutral grip = less shoulder/nerve stress                      │
+  │                                                                      │
+  │  2. Machine chest press (if available)     3×10-12   RIR 2          │
+  │     OR DB bench press (neutral grip)                                 │
+  │     Start: 20lb DBs                                                  │
+  │     → ELBOW: stop 10° before lockout                                │
+  │     → LEFT ARM: reduce weight if any tingling/coldness              │
+  │                                                                      │
+  │  3. Cable fly (low-to-mid)                 3×12-15   RIR 1          │
+  │     Start: 14kg                                                      │
+  │     → Constant tension, 2s eccentric, squeeze                        │
+  │                                                                      │
+  │  4. Cable lateral raise                    3×12-15   RIR 1          │
+  │     Start: 5kg                                                       │
+  │     → Lead with pinky, no momentum, LIGHT                           │
+  │     → LEFT ARM: monitor for nerve symptoms                          │
+  │                                                                      │
+  │  5. Cable row (postural)                   3×12-15   RIR 2          │
+  │     Start: 14kg                                                      │
+  │     → Postural correction, elbows 30-45°, squeeze 1s                │
+  │     → Supports upper back / cervical health                          │
+  │                                                                      │
+  │  6. Triceps rope pressdown                 3×12-15   RIR 1          │
+  │     Start: 14kg                                                      │
+  │     → ELBOW: NO full lockout, moderate weight only                  │
+  │     → LEFT ARM: if cold/tingly, skip or use right arm only          │
+  │                                                                      │
+  │  7. Pallof press (core finisher)           2×10-12   controlled     │
+  │     Start: 14kg                                                      │
+  │     → Anti-rotation, brace transverse abs                            │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ DAY 2 — LEGS (Quads, Hamstrings, Calves)             ~50 min        │
+  │ Tags: Quads, Hamstrings, Calves, Glutes                              │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  1. Leg press                              3×10-12   RIR 2-3        │
+  │     Start: 45kg                                                      │
+  │     → Feet mid-high on platform                                      │
+  │     → SPINE: never let lower back round off pad                     │
+  │     → Don't lock knees at top                                        │
+  │                                                                      │
+  │  2. Seated leg curl                        3×10-12   RIR 1-2        │
+  │     Start: 27kg                                                      │
+  │     → 3s eccentric (slow down), hamstring control                    │
+  │                                                                      │
+  │  3. Seated leg extension                   3×10-12   RIR 1-2        │
+  │     Start: 20kg                                                      │
+  │     → Stop 10° before full lockout                                   │
+  │     → Controlled — no snapping                                       │
+  │                                                                      │
+  │  4. Hip thrust (bench + DB)                3×10-12   RIR 2          │
+  │     Start: 50lb                                                      │
+  │     → BEST exercise for you: glutes, NO spinal compression          │
+  │     → Full squeeze at top, 1s hold                                   │
+  │                                                                      │
+  │  5. Seated calf raise                      3×12-15   RIR 1          │
+  │     Start: 40kg                                                      │
+  │     → Seated = spine safe, 2s hold at top                            │
+  │                                                                      │
+  │  6. Tibialis raises                        2×15-20   bodyweight     │
+  │     → REHAB: foot/ankle stability, no added weight                  │
+  │                                                                      │
+  │  7. Glute bridge (bodyweight)              2×12-15   controlled     │
+  │     → REHAB: glute activation, hold 2s at top                       │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ DAY 3 — PULL (Back, Biceps, Rear Delts)              ~50 min        │
+  │ Tags: Back, Biceps, Rear Delts                                       │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  1. Seated cable row (neutral grip)        3×10-12   RIR 2-3        │
+  │     Start: 30kg                                                      │
+  │     → Chest up, NO jerking, controlled eccentric                    │
+  │     → Neutral grip = less nerve strain on left arm                  │
+  │                                                                      │
+  │  2. Lat pulldown (neutral grip)            3×10-12   RIR 2          │
+  │     Start: 30kg                                                      │
+  │     → Drive elbows to hips                                           │
+  │     → Stop 10° before full arm extension                             │
+  │     → CERVICAL: keep chin tucked, don't let head jut forward        │
+  │       as you pull — this is the #1 mistake that compresses           │
+  │       cervical nerves during pulldowns                               │
+  │     → LEFT ARM: if symptoms, use single-arm and reduce weight       │
+  │                                                                      │
+  │  3. Single-arm cable pulldown              3×10-12   RIR 1-2        │
+  │     Start: 14kg                                                      │
+  │     → Strict form, feel the lat fully                                │
+  │     → Do right arm first, match with left (or reduce left)          │
+  │                                                                      │
+  │  4. Straight-arm pulldown                  3×12-15   RIR 1          │
+  │     Start: 14kg                                                      │
+  │     → Slight forward lean, long arc, squeeze at bottom              │
+  │                                                                      │
+  │  5. Reverse cable fly                      3×12-15   RIR 1          │
+  │     Start: 5kg                                                       │
+  │     → POSTURAL: rear delt focus, light, no swinging                 │
+  │     → Supports cervical spine health                                 │
+  │                                                                      │
+  │  6. Cable curls                            3×12-15   RIR 1          │
+  │     Start: 14kg                                                      │
+  │     → ELBOW: no full extension at bottom                            │
+  │     → LEFT ARM: stop immediately if cold/tingly sensation           │
+  │     → Alternative: hammer curls (neutral grip, less nerve stress)   │
+  │                                                                      │
+  │  7. Bird-dogs (core finisher)              2×8 each  controlled     │
+  │     → Hold 3s at top, anti-extension                                 │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ DAY 4 — PUSH/PULL HYBRID (2× weekly upper body frequency)  ~50 min │
+  │ Tags: Chest, Back, Shoulders, Arms                                   │
+  │                                                                      │
+  │ PURPOSE: Gives every upper body muscle group a second weekly         │
+  │ stimulus. Research consistently shows 2×/week per muscle is          │
+  │ superior to 1×/week for hypertrophy. Pick one compound push,         │
+  │ one compound pull, then fill with whatever you want to grow most.   │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  — PUSH COMPOUND —                                                   │
+  │  1. Cable chest press (neutral grip)       3×10-12   RIR 2          │
+  │     Start: 18kg                                                      │
+  │     → Second weekly chest stimulus                                   │
+  │     → CERVICAL: chin tucked, don't let head jut forward             │
+  │                                                                      │
+  │  — PULL COMPOUND —                                                   │
+  │  2. Seated cable row (neutral grip)        3×10-12   RIR 2          │
+  │     Start: 30kg                                                      │
+  │     → Second weekly back stimulus                                    │
+  │     → Upper back thickness + cervical spine support                  │
+  │     → CERVICAL: maintain neutral neck, no forward head              │
+  │                                                                      │
+  │  — SHOULDER / POSTURAL —                                             │
+  │  3. Cable lateral raise                    3×12-15   RIR 1          │
+  │     Start: 5kg                                                       │
+  │     → Side delts respond well to higher frequency                    │
+  │     → LEFT ARM: monitor, reduce or skip if symptoms                 │
+  │                                                                      │
+  │  4. Reverse cable fly                      3×12-15   RIR 1          │
+  │     Start: 5kg                                                       │
+  │     → CRITICAL for cervical health: strengthens lower traps          │
+  │       and rhomboids which decompress the cervical foramina          │
+  │     → Also your second weekly rear delt hit                          │
+  │                                                                      │
+  │  — ARMS (alternate focus each week) —                                │
+  │  5a. Week A: Cable curls (hammer grip)     3×12-15   RIR 1          │
+  │      Start: 12kg                                                     │
+  │      → Hammer/neutral grip = less radial nerve stress               │
+  │      → LEFT ARM: stop if cold/tingly                                │
+  │  5b. Week B: Triceps rope pressdown        3×12-15   RIR 1          │
+  │      Start: 14kg                                                     │
+  │      → NO full lockout, moderate weight                              │
+  │                                                                      │
+  │  — CORE FINISHER —                                                   │
+  │  6. Pallof press                           2×10-12   controlled     │
+  │     Start: 14kg                                                      │
+  │     → Anti-rotation, different angle than Day 1                      │
+  │                                                                      │
+  │  7. Side plank (each side)                 2×20-30s  hold           │
+  │     → Lateral stability, spine-safe, supports scoliosis              │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  EXERCISES REMOVED FROM OLD ROUTINE & WHY:
+  ──────────────────────────────────────────
+  • Heavy 3-5 rep ranges on ALL exercises → Too much spinal load risk
+  • 5-set compounds → Reduced to 3 sets (sufficient for hypertrophy
+    at moderate loads, less cumulative fatigue)
+  • Split squat → Removed for now (sciatica + foot risk); replaced
+    with more hip thrust volume which is spine-safe
+  • Dedicated Glutes gym day → Removed because physio already
+    provides extensive glute/leg rehab work (bands, bodyweight,
+    single-leg patterns). Replaced with Push/Pull Hybrid for 2×/week
+    upper body frequency which is the #1 evidence-backed driver
+    of hypertrophy
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 3 — PHYSIO SCHEDULE                                               ║
+║  Alternating days: Neck/Upper Back vs Core vs Legs/Glutes                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  RULE: Each physio category is done every OTHER day. They overlap.
+  Nerve flossing for left arm: DAILY (gentle, 1-2 min).
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ WEEKLY PHYSIO ROTATION                                               │
+  ├──────────┬──────────────────┬──────────────────┬─────────────────────┤
+  │   Day    │  Neck/Upper Back │   Core Physio    │  Legs/Glutes Physio │
+  ├──────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ Monday   │       ✓          │                  │        ✓            │
+  │ Tuesday  │                  │       ✓          │                     │
+  │ Wednesday│       ✓          │                  │        ✓            │
+  │ Thursday │                  │       ✓          │                     │
+  │ Friday   │       ✓          │                  │        ✓            │
+  │ Saturday │                  │       ✓          │                     │
+  │ Sunday   │       ✓          │                  │        ✓            │
+  ├──────────┴──────────────────┴──────────────────┴─────────────────────┤
+  │ Arm nerve flossing: EVERY DAY (gentle, see below)                    │
+  │ Neurodinamia (sciatic): EVERY DAY (as currently prescribed)          │
+  │ Movilidad de columna: EVERY DAY (as currently prescribed)            │
+  │ Pausa activa: EVERY HOUR when sitting (as currently prescribed)      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+  NOTE: Your physio already prescribes the neck, core, and legs/glutes
+  exercises. Keep doing exactly what they've assigned (the exercises in
+  the original export). The only NEW addition is the arm/nerve work below.
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ NEW: LEFT ARM NERVE REHAB (Daily, ~5-8 min)                          │
+  │ Sources: Cleveland Clinic, NCBI PMC9925568, PMC12145072             │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │ IMPORTANT: These are GLIDES not stretches. The motion should be      │
+  │ smooth and rhythmic. NEVER hold at end range. If you feel            │
+  │ tingling/pain increase, REDUCE the range. Stop if symptoms worsen.   │
+  │                                                                      │
+  │                                                                      │
+  │ A. RADIAL NERVE GLIDE (primary suspect)                              │
+  │    ─────────────────────────────────────                              │
+  │    1. Stand tall, shoulders relaxed                                   │
+  │    2. Extend LEFT arm out to side, elbow straight                    │
+  │    3. Internally rotate arm (thumb points to floor)                  │
+  │    4. Flex wrist and fingers downward (palm faces behind you)        │
+  │    5. GLIDE: Tilt head TOWARD extended arm (creates slack) then      │
+  │       tilt AWAY (adds gentle tension)                                │
+  │    6. Move slowly between positions                                  │
+  │    Reps: 10-15 gentle oscillations                                   │
+  │    Sets: 2                                                           │
+  │    Frequency: 2-3× daily                                            │
+  │    Feel: mild stretch along outer arm, NEVER sharp pain              │
+  │                                                                      │
+  │                                                                      │
+  │ B. ULNAR NERVE GLIDE (secondary suspect)                             │
+  │    ─────────────────────────────────────                              │
+  │    1. Stand tall or sit upright                                      │
+  │    2. Extend LEFT arm to side at shoulder height                     │
+  │    3. Bend elbow to bring hand toward face (like looking at watch)  │
+  │    4. Extend wrist back (fingers point to ceiling)                   │
+  │    5. GLIDE: Straighten elbow slightly while tilting head away,     │
+  │       then bend elbow while tilting head toward arm                  │
+  │    6. Alternate smoothly                                             │
+  │    Reps: 10-15 gentle oscillations                                   │
+  │    Sets: 2                                                           │
+  │    Frequency: 2× daily                                              │
+  │    Feel: mild stretch along inner arm to pinky side                  │
+  │                                                                      │
+  │                                                                      │
+  │ C. MEDIAN NERVE GLIDE (preventive — covers the full set)            │
+  │    ────────────────────────────────────────────────────              │
+  │    1. Extend LEFT arm to side, palm up                               │
+  │    2. Extend wrist back (fingers point to floor behind you)         │
+  │    3. GLIDE: Tilt head toward arm (slack) then away (tension)       │
+  │    Reps: 10 gentle oscillations                                      │
+  │    Sets: 1                                                           │
+  │    Frequency: 1× daily                                              │
+  │                                                                      │
+  │                                                                      │
+  │ D. NECK/SHOULDER DECOMPRESSION (cervical radiculopathy component)   │
+  │    ──────────────────────────────────────────────────────────        │
+  │    Given your cervical findings (C2-C4 issues), the arm symptoms    │
+  │    may partly originate from nerve compression in the neck.          │
+  │                                                                      │
+  │    1. Chin tucks: Pull chin straight back (make "double chin").     │
+  │       Hold 5s. 10 reps. Decompresses cervical spine.                │
+  │    2. Cervical lateral flexion: Ear to shoulder gently, hold 15s.   │
+  │       Each side, 3 reps. NO rotation during this.                    │
+  │    3. Scalene stretch: Tilt head to right, place right hand on      │
+  │       left side of head (gentle pressure). Hold 20s. Both sides.    │
+  │                                                                      │
+  │ TELL YOUR PHYSIO: Ask specifically whether the left arm symptoms    │
+  │ could be cervical radiculopathy from C5-C6/C6-C7 (your X-ray       │
+  │ showed issues at C2-C4 but a full cervical MRI might reveal more    │
+  │ at lower cervical levels). A nerve conduction study can pinpoint    │
+  │ whether it's peripheral (arm) or central (neck) compression.        │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 4 — CARDIO PLAN (Recumbent Bike Progression)                      ║
+║  6-week build-up from steady state → intervals → HIIT                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  WHY RECUMBENT BIKE: Research confirms it's the single best cardio
+  option for spinal stenosis. The reclined seat and back support
+  minimize spinal compression. A 2018 study found 58.3% of stenosis
+  patients showed clinical improvement after 3 months of cycling.
+
+  SCHEDULE: 3× per week — Monday (post-Push), Wednesday (post-Pull),
+  Friday (recovery day). Always after upper body work, never after
+  gym legs day.
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ PHASE 1: Foundation (Weeks 1-2)                    15-20 min total  │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │  • 3 min warm-up, easy pedal (RPE 3)                                │
+  │  • 10-14 min steady state at low-moderate resistance (RPE 4-5)      │
+  │  • 2 min cool-down, easy pedal                                      │
+  │  • Heart rate target: 50-60% max HR (~94-112 bpm at age 33)        │
+  │  • Goal: Build base endurance without stressing spine                │
+  └──────────────────────────────────────────────────────────────────────┘
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ PHASE 2: Tempo (Weeks 3-4)                         20-25 min total  │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │  • 3 min warm-up                                                     │
+  │  • 5 min steady at RPE 5                                             │
+  │  • 4× intervals: 1 min at RPE 6-7 / 2 min at RPE 4                 │
+  │  • 3 min cool-down                                                   │
+  │  • Heart rate target: 60-75% max HR (~112-140 bpm)                  │
+  │  • Goal: Introduce intensity variation, gauge spine response         │
+  └──────────────────────────────────────────────────────────────────────┘
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ PHASE 3: Intervals (Weeks 5-6)                     20-25 min total  │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │  • 3 min warm-up                                                     │
+  │  • 6× intervals: 45s at RPE 7-8 / 90s at RPE 4                     │
+  │  • 3 min cool-down                                                   │
+  │  • Heart rate target: 70-80% max HR (~131-150 bpm)                  │
+  │  • Goal: Building toward HIIT-level intensity                        │
+  └──────────────────────────────────────────────────────────────────────┘
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ PHASE 4: HIIT (Weeks 7+, physio clearance first)   20 min total     │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │  • 3 min warm-up                                                     │
+  │  • 5-8× intervals: 30-60s at RPE 8-9 / 90-120s at RPE 4            │
+  │  • 3 min cool-down                                                   │
+  │  • Heart rate target: 80-90% max HR (~150-168 bpm)                  │
+  │  • Goal: Full HIIT protocol, spine-safe on recumbent                │
+  │  • RULE: If ANY back pain during high-effort intervals,             │
+  │    drop back to Phase 3 intensity                                    │
+  └──────────────────────────────────────────────────────────────────────┘
+
+  SPINE SAFETY DURING CARDIO:
+  • Keep back pressed against seat pad at all times
+  • Never lean forward during high-effort bursts
+  • If bracing/tensing core causes low back discomfort, lower intensity
+  • Start with 70% effort intervals (not 90%) and build up
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 5 — INTEGRATED WEEKLY SCHEDULE                                    ║
+║  2 hours daily budget                                                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  SCHEDULING LOGIC:
+  ─────────────────
+  • Gym Legs day is placed so it's NEVER the day before or after
+    Legs/Glutes physio → legs get gym stimulus, then rest, then
+    low-load physio activation (or vice versa)
+  • Upper body gym days pair with Legs/Glutes physio (different
+    muscle groups = no interference)
+  • Gym Legs day pairs with Core physio (legs rest while doing core)
+  • Cardio 3×/week on upper body gym days + Friday recovery
+
+  PHYSIO ROTATION APPLIED:
+  ┌──────────┬──────────────┬──────────────┬──────────────────┐
+  │   Day    │ Neck/UpperBk │  Core Physio │ Legs/Glt Physio  │
+  ├──────────┼──────────────┼──────────────┼──────────────────┤
+  │ Monday   │      ✓       │              │       ✓          │
+  │ Tuesday  │              │      ✓       │                  │
+  │ Wednesday│      ✓       │              │       ✓          │
+  │ Thursday │              │      ✓       │                  │
+  │ Friday   │      ✓       │              │       ✓          │
+  │ Saturday │              │      ✓       │                  │
+  │ Sunday   │      ✓       │              │       ✓          │
+  └──────────┴──────────────┴──────────────┴──────────────────┘
+
+  ┌─────────┬──────────────────────────────────────────────────────────────┐
+  │ MONDAY  │ GYM DAY 1: Push + Cardio                                    │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Push workout ........................ 50 min             │
+  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
+  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
+  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~120 min           │
+  │         │ (upper body gym + lower body physio = no overlap)            │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ TUESDAY │ GYM DAY 2: Legs                                             │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Legs workout ........................ 50 min             │
+  │         │ ├─ Physio: Core ........................ 25 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~95 min            │
+  │         │ (gym legs + core physio = legs rest during core)             │
+  │         │ (NO legs physio today, NO legs physio yesterday = fresh)     │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ WEDNESDAY│ GYM DAY 3: Pull + Cardio                                   │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Pull workout ........................ 50 min             │
+  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
+  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
+  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~120 min           │
+  │         │ (upper body gym + lower body physio = no overlap)            │
+  │         │ (legs had gym yesterday, today is just light physio          │
+  │         │  activation = proper recovery spacing)                       │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ THURSDAY│ GYM DAY 4: Push/Pull Hybrid                                 │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Hybrid workout ...................... 50 min             │
+  │         │ ├─ Physio: Core ........................ 25 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~95 min            │
+  │         │ (second upper body hit of the week + core physio)            │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ FRIDAY  │ ACTIVE RECOVERY + PHYSIO + CARDIO (no gym)                   │
+  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
+  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
+  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
+  │         │ ├─ Full nerve flossing session ......... 10 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ ├─ Pausa activa / stretching ........... 10 min             │
+  │         │ └─ TOTAL ............................... ~80 min            │
+  │         │ (recovery day — cardio + mobility + nerve health)            │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ SATURDAY│ ACTIVE RECOVERY + PHYSIO (no gym)                            │
+  │         │ ├─ Physio: Core ........................ 25 min             │
+  │         │ ├─ Full nerve flossing session ......... 10 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ ├─ Pausa activa / stretching ........... 10 min             │
+  │         │ └─ TOTAL ............................... ~55 min            │
+  │         │ (light day — core physio + recovery only)                    │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ SUNDAY  │ REST + MINIMUM MAINTENANCE                                   │
+  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
+  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
+  │         │ ├─ Nerve flossing (gentle) ............. 5 min              │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ ├─ Pausa activa / stretching ........... 10 min             │
+  │         │ └─ TOTAL ............................... ~55 min            │
+  │         │ (true rest day — physio only, no gym or hard cardio)         │
+  └─────────┴──────────────────────────────────────────────────────────────┘
+
+  WHY THIS SCHEDULE WORKS:
+  ────────────────────────
+  • GYM LEGS (Tue) is buffered from LEGS PHYSIO:
+    - Monday has legs physio (light activation) → Tuesday is gym legs
+      (physio activation actually PRIMES muscles for next day)
+    - Wednesday has legs physio again (light rehab) → allows recovery
+      from Tuesday's gym legs with gentle movement (active recovery)
+    - Thursday/Saturday: NO legs work, full rest for lower body
+  • UPPER BODY gets 2×/week frequency:
+    - Push on Monday, Pull on Wednesday, Hybrid on Thursday
+    - Every upper body muscle hit twice = optimal hypertrophy stimulus
+  • Upper body gym days pair with Legs/Glutes physio (no interference)
+  • Gym Legs day pairs with Core physio (legs rest during core)
+  • Cardio placed on Mon/Wed/Fri (3×/week as recommended)
+  • Tuesday/Thursday are lighter total time (~95 min) to prevent burnout
+  • Friday is active recovery (cardio + mobility, no lifting)
+  • Saturday is the lightest day (core physio + mobility only)
+  • Sunday is true rest with only maintenance physio
+  • Chin tucks between EVERY set during gym = constant cervical
+    decompression (becomes automatic habit within 2 weeks)
+  • Daily nerve flossing in warm-up + standalone sessions on rest days
+  • Daily neurodinamia and movilidad de columna maintained as prescribed
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 6 — NUTRITION & SUPPLEMENTS FOR RECOVERY                          ║
+║  Everything with strong research/academic/medical backing                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ A. ANTI-INFLAMMATORY FOODS (daily diet foundation)                   │
+  │    Follow a Mediterranean-style diet — strongest evidence for        │
+  │    reducing chronic inflammation, disc degeneration, and joint pain  │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  TIER 1 — EAT DAILY (highest evidence):                             │
+  │  ──────────────────────────────────────                              │
+  │  • Fatty fish (salmon, mackerel, sardines) — 3-4× per week          │
+  │    → Richest source of EPA/DHA omega-3s                              │
+  │    → Directly reduces disc inflammation (Modic 1 is inflammatory)   │
+  │    → Supports nerve myelin repair                                    │
+  │                                                                      │
+  │  • Extra virgin olive oil — daily, as primary cooking oil            │
+  │    → Contains oleocanthal (works like ibuprofen)                     │
+  │    → Anti-inflammatory monounsaturated fats                          │
+  │                                                                      │
+  │  • Dark leafy greens (spinach, kale, collards) — daily              │
+  │    → High in magnesium, vitamin K (bone health)                      │
+  │    → Calcium absorption for vertebral health                         │
+  │    → Antioxidants reduce oxidative stress on nerves                  │
+  │                                                                      │
+  │  • Berries (blueberries, strawberries, tart cherries) — daily       │
+  │    → Anthocyanins = potent anti-inflammatory                         │
+  │    → Tart cherry juice specifically studied for joint pain           │
+  │                                                                      │
+  │  • Avocado — daily                                                   │
+  │    → Healthy fats, potassium, anti-inflammatory                      │
+  │                                                                      │
+  │  • Nuts (walnuts especially) — daily handful                         │
+  │    → Plant-based omega-3 (ALA) + vitamin E                           │
+  │                                                                      │
+  │  • Turmeric/ginger — daily in food or as tea                         │
+  │    → Curcumin blocks inflammatory pathways                           │
+  │    → Always combine with black pepper (2000% absorption boost)       │
+  │                                                                      │
+  │                                                                      │
+  │  TIER 2 — EAT REGULARLY (strong evidence):                          │
+  │  ─────────────────────────────────────────                           │
+  │  • Eggs — good protein + choline for nerve health                    │
+  │  • Sweet potatoes — vitamin A, anti-inflammatory carbs               │
+  │  • Bone broth — collagen precursors, glycine for joint repair        │
+  │  • Greek yogurt — protein + probiotics (gut-inflammation link)       │
+  │  • Chia/flax seeds — omega-3 + fiber                                 │
+  │  • Garlic & onions — allicin is anti-inflammatory                    │
+  │  • Green tea — EGCG catechins reduce inflammation                    │
+  │  • Beets — nitrates improve blood flow (helps nerve healing)         │
+  │                                                                      │
+  │                                                                      │
+  │  FOODS TO MINIMIZE (pro-inflammatory):                               │
+  │  ─────────────────────────────────────                               │
+  │  • Processed/fried foods                                             │
+  │  • Refined sugar and white flour                                     │
+  │  • Excessive red meat (1-2× per week max)                            │
+  │  • Corn/safflower/soybean oil (high omega-6, pro-inflammatory)       │
+  │  • Alcohol (increases systemic inflammation)                         │
+  │  • Processed deli meats                                              │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ B. SUPPLEMENTS (evidence-ranked)                                     │
+  │    ★★★ = strong RCT evidence  ★★ = moderate  ★ = emerging           │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  ALREADY TAKING (keep all of these):                                 │
+  │  ──────────────────────────────────                                  │
+  │  ★★★ Vitamin D — Essential for bone health & disc repair             │
+  │      → Deficiency linked to worsening Modic changes                  │
+  │      → Dose: 2000-4000 IU/day (get blood levels checked)            │
+  │      → Take with fat for absorption                                  │
+  │                                                                      │
+  │  ★★★ Magnesium — Muscle relaxation, nerve function, sleep            │
+  │      → Magnesium glycinate preferred (best absorption, calming)      │
+  │      → 300-400mg before bed                                          │
+  │      → Helps with pregabalin side effects                            │
+  │                                                                      │
+  │  ★★★ Creatine — Muscle strength, power, neuroprotective              │
+  │      → 5g/day, most researched supplement in existence                │
+  │      → Also has emerging evidence for brain/nerve health              │
+  │                                                                      │
+  │  ★★★ Whey protein — Muscle repair and growth                         │
+  │      → 25-40g post-workout                                           │
+  │      → Aim for 1.6-2.2g protein per kg bodyweight daily total       │
+  │                                                                      │
+  │  ★★★ Pregabalin (Rx) — Nerve pain management                        │
+  │      → Keep as prescribed by your doctor                             │
+  │                                                                      │
+  │                                                                      │
+  │  ADD THESE (strong evidence for your conditions):                    │
+  │  ───────────────────────────────────────────────                     │
+  │                                                                      │
+  │  ★★★ Omega-3 Fish Oil (EPA/DHA)                                     │
+  │      WHY: Meta-analysis shows significant pain reduction in          │
+  │      arthritis. Preclinical research shows omega-3 reduces disc      │
+  │      dehydration and degeneration markers. Your Modic 1 changes      │
+  │      are actively inflammatory — omega-3 directly targets this.      │
+  │      EPA specifically has anti-inflammatory effects on the disc.     │
+  │      DOSE: 2-3g combined EPA/DHA daily (look for high-EPA formula)  │
+  │      TIMING: With meals containing fat                               │
+  │      SOURCE: NCBI PMC10210278, PMC research on disc degeneration     │
+  │                                                                      │
+  │  ★★★ Vitamin B12 (methylcobalamin form)                             │
+  │      WHY: Essential for nerve myelin maintenance and repair.          │
+  │      Study showed injectable B12 was more effective than              │
+  │      nortriptyline for neuropathic symptoms (paresthesia,            │
+  │      tingling). Critical given your radial/ulnar nerve symptoms      │
+  │      AND the possible nerve root contact in your lumbar spine.       │
+  │      B12 scavenges reactive oxygen species that damage nerves.       │
+  │      DOSE: 1000-2000mcg sublingual methylcobalamin daily             │
+  │      NOTE: Methylcobalamin form, NOT cyanocobalamin                  │
+  │      SOURCE: NCBI research on B12 and neuropathy                     │
+  │                                                                      │
+  │  ★★★ Alpha Lipoic Acid (ALA)                                        │
+  │      WHY: Meta-analysis of RCTs (523 patients) showed significant    │
+  │      pain reduction and improved nerve function. Powerful             │
+  │      antioxidant that improves blood flow to nerves. Specifically    │
+  │      relevant for your arm nerve symptoms and spinal nerve           │
+  │      compression. Also shown effective in carpal tunnel (RCT).       │
+  │      DOSE: 300-600mg daily                                           │
+  │      TIMING: On empty stomach for best absorption                    │
+  │      SOURCE: NCBI PMC7690794, PMC12766933                           │
+  │                                                                      │
+  │  ★★ Curcumin (bioavailable form)                                    │
+  │      WHY: Blocks NF-κB inflammatory pathway. Standard turmeric       │
+  │      powder is only 3% curcumin. Need bioavailable form.             │
+  │      Most people notice reduced stiffness and pain in 4-6 weeks.    │
+  │      DOSE: 500-1000mg curcumin daily (with piperine/black pepper    │
+  │      extract for 2000% absorption increase)                          │
+  │      BRANDS: Look for "Meriva", "BCM-95", or "Longvida" forms       │
+  │      SOURCE: UT Southwestern Medical Center review                   │
+  │                                                                      │
+  │  ★★ Collagen Peptides (Type II)                                     │
+  │      WHY: Provides amino acid precursors for cartilage and disc      │
+  │      repair. Some studies show joint pain improvement. Your discs    │
+  │      and facet joints need all the building blocks they can get.     │
+  │      DOSE: 10-15g daily                                              │
+  │      TIMING: Morning or post-workout                                 │
+  │      NOTE: Combine with vitamin C (enhances collagen synthesis)      │
+  │      SOURCE: Emerging research, moderate evidence                    │
+  │                                                                      │
+  │  ★★ Vitamin B Complex (B1, B6, B12)                                 │
+  │      WHY: 6-month study showed combination of B vitamins with        │
+  │      ALA improved pain and nerve function markers significantly.     │
+  │      B6 specifically important for peripheral nerve health.          │
+  │      DOSE: Standard B-complex 1×/day (covers B1, B2, B6, B9, B12)  │
+  │      NOTE: Don't exceed 100mg B6/day (excess can cause neuropathy)  │
+  │      SOURCE: NCBI PMC11434759                                        │
+  │                                                                      │
+  │                                                                      │
+  │  CONSIDER (weaker evidence, but low risk):                           │
+  │  ─────────────────────────────────────────                           │
+  │                                                                      │
+  │  ★ Glucosamine + MSM                                                 │
+  │      Evidence for spinal health specifically is limited. A subset    │
+  │      of patients with moderate-severe OA does get relief. Harvard    │
+  │      says "safe but modestly helpful at best." Your facet joint      │
+  │      hypertrophy has an arthritic component, so it may be worth     │
+  │      trying for 3 months and evaluating.                             │
+  │      DOSE: 1500mg glucosamine + 1500mg MSM daily                     │
+  │      NOTE: Skip chondroitin (weakest evidence of the three)         │
+  │                                                                      │
+  │  ★ Vitamin K2 (MK-7)                                                │
+  │      Works synergistically with vitamin D for calcium metabolism     │
+  │      and bone health. Directs calcium to bones (not arteries).       │
+  │      DOSE: 100-200mcg daily                                          │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+  ┌──────────────────────────────────────────────────────────────────────┐
+  │ C. DAILY SUPPLEMENT SCHEDULE                                         │
+  ├──────────────────────────────────────────────────────────────────────┤
+  │                                                                      │
+  │  MORNING (with breakfast):                                           │
+  │  • Omega-3 fish oil (2-3g EPA/DHA)                                  │
+  │  • Vitamin D (2000-4000 IU)                                          │
+  │  • Vitamin K2 (100mcg)                                               │
+  │  • B-Complex (includes B12)                                          │
+  │  • Collagen peptides (10-15g, can mix in coffee or smoothie)         │
+  │  • Creatine (5g)                                                     │
+  │                                                                      │
+  │  EMPTY STOMACH (mid-morning or mid-afternoon):                       │
+  │  • Alpha Lipoic Acid (300-600mg)                                     │
+  │                                                                      │
+  │  WITH DINNER:                                                        │
+  │  • Curcumin (500-1000mg with black pepper)                           │
+  │  • Glucosamine + MSM (if trying)                                     │
+  │                                                                      │
+  │  BEFORE BED:                                                         │
+  │  • Magnesium glycinate (300-400mg)                                   │
+  │  • Pregabalin (as prescribed)                                        │
+  │                                                                      │
+  │  POST-WORKOUT:                                                       │
+  │  • Whey protein (25-40g)                                             │
+  │                                                                      │
+  └──────────────────────────────────────────────────────────────────────┘
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 7 — CRITICAL SAFETY RULES                                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. PAIN RULE (unchanged, still essential):
+     If ANY exercise causes pain above 3/10 during or 24 hours after,
+     drop the weight 20% and hold for 2 weeks before trying to progress.
+
+  2. LEFT ARM RULE (new):
+     If you feel coldness, tingling, or increased pain in your left arm
+     during any exercise, STOP that exercise immediately. Switch to
+     single-arm (right only) or skip it. Log which exercises trigger it.
+
+  3. SPINE RULE (new):
+     Never let your lower back round under load. If you can't maintain
+     neutral spine, the weight is too heavy — no exceptions. This
+     applies especially to leg press, RDL, and cable pull-through.
+
+  4. NERVE FLOSSING RULE:
+     Nerve glides should feel like a MILD stretch, never sharp pain.
+     These are oscillations, not static stretches — never hold at end
+     range. If symptoms increase during flossing, reduce range of motion.
+
+  5. FATIGUE MANAGEMENT:
+     You're investing 2 hours/day which is significant. If you feel
+     overall fatigue accumulating (poor sleep, increased pain, low
+     motivation for >3 days), take a deload week: halve all gym weights,
+     keep physio the same, increase rest.
+
+  6. PARASPINAL MUSCLE PRIORITY:
+     Your MRI showed thinned paraspinal + psoas muscles with fatty
+     infiltration. Rebuilding these is arguably the #1 priority for
+     long-term spine health. Every core exercise in your physio program
+     targets these. Don't skip core work — it's not optional, it's
+     treatment.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  SECTION 8 — THINGS TO DISCUSS WITH YOUR PHYSIO                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Next time you see your physiotherapist, bring up:
+
+  1. LEFT ARM: Could the symptoms be cervical radiculopathy (from your
+     C2-C4 issues) rather than peripheral nerve entrapment? Would they
+     recommend a cervical MRI or nerve conduction study?
+
+  2. The nerve flossing exercises in Section 3 — are they appropriate
+     given the full picture of your cervical + lumbar findings?
+
+  3. Your shift to moderate loads (8-15 reps) — do they agree this is
+     appropriate given the neuroforaminal narrowing?
+
+  4. HIIT on recumbent bike — when do they think you'll be ready?
+     Show them the 6-week progression plan in Section 4.
+
+  5. The supplement additions (especially ALA + B12 + omega-3) —
+     any interactions with pregabalin to watch for?
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  RESEARCH SOURCES                                                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  TRAINING & REP RANGES:
+  • https://www.transparentlabs.com/blogs/all/high-reps-vs-low-reps-which-builds-muscle-best-according-to-science
+  • https://builtwithscience.com/fitness-tips/high-reps-vs-low-reps-growth/
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12821511/
+  • https://www.mensfitness.com/training/rir-vs-failure-the-truth-about-rep-ranges-for-muscle-growth
+  • https://fitbesideshealth.com/training-to-failure-vs-leaving-reps/
+
+  SPINE & FACET JOINT:
+  • https://www.medicalnewstoday.com/articles/facet-joint-pain-exercises-to-avoid
+  • https://dr-muscle.com/exercises-for-facet-joint-hypertrophy-alleviate-pain-and-improve-mobility/
+  • https://deukspine.com/blog/lifting-weights-with-herniated-disc/
+  • https://regenerativespineandjoint.com/2026/01/09/free-weights-vs-machine-weights-protecting-your-low-back-from-injury-and-chronic-pain/
+  • https://www.institutoclavel.com/en/blog/exercises-to-avoid-with-lumbar-stenosis
+
+  MODIC CHANGES:
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4566202/
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10176889/
+  • https://pmc.ncbi.nlm.nih.gov/articles/PMC4868222/
+
+  PARASPINAL MUSCLES:
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10782077/
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6580468/
+  • https://link.springer.com/article/10.1007/s00586-022-07471-w
+
+  NERVE ENTRAPMENT & FLOSSING:
+  • https://my.clevelandclinic.org/health/diseases/15658-radial-tunnel-syndrome
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9925568/
+  • https://pmc.ncbi.nlm.nih.gov/articles/PMC12145072/
+  • https://deskjockeyphysio.com/radial-nerve-flossing/
+  • https://www.goodrx.com/conditions/musculoskeletal/cubital-tunnel-syndrome-exercises
+
+  CERVICAL SPINE:
+  • https://www.iron-neck.com/blogs/articles/retrolisthesis-neck-exercises
+  • https://www.spineinfo.com/conditions/exercise-with-retrolisthesis-activities-to-embrace-and-avoid/
+
+  CARDIO:
+  • https://www.vanswefitness.com/blogs/garage-gym/are-recumbent-bikes-good-for-spinal-stenosis
+  • https://www.vanswefitness.com/blogs/garage-gym/recumbent-bike-workout-plan
+  • https://www.xjd.com/t-are-recumbent-bikes-good-for-spinal-stenosis/
+
+  NUTRITION & SUPPLEMENTS:
+  • https://utswmed.org/medblog/supplements-for-back-joint-muscle-pain/
+  • https://spinedocs.org/top-supplements-for-spinal-health/
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10210278/ (omega-3 meta-analysis)
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7690794/ (ALA for neuropathy)
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12766933/ (ALA + B vitamins)
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11434759/ (B vitamin combination)
+  • https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9205410/ (supplements nerve recovery)
+  • https://www.health.harvard.edu/blog/the-latest-on-glucosaminechondroitin-supplements-2016101710391
+  • https://www.ncbi.nlm.nih.gov/books/NBK82021/ (glucosamine spinal health)
+  • https://optimalspineandsports.com/nutrition-and-spinal-health-what-you-eat-matters/
+  • https://diet.mayoclinic.org/us/blog/2025/mediterranean-diet-inflammation-foods-that-soothe-chronic-pain/
+
+
+================================================================================
+                           END OF MASTER PLAN
+================================================================================

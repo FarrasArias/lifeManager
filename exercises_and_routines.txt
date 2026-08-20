@@ -1,0 +1,442 @@
+================================================================================
+                    ALL EXERCISES & ROUTINES — FULL EXPORT
+                         (Exported 2026-08-20)
+================================================================================
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                          GYM — WARM-UP (EVERY SESSION)                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  + 5 min stationary bike if available
+
+  1. Band face pulls
+     Sets: 2 | Reps: 15 | Weight: light band
+     Notes: Light band, squeeze rear delts
+
+  2. Scap push-ups
+     Sets: 1 | Reps: 10 | Weight: —
+     Notes: Slow, controlled protraction
+
+  3. Dead bugs (core)
+     Sets: 2 | Reps: 8 | Weight: —
+     Notes: Breathe out on extension, brace abs
+
+  4. Cat-cow
+     Sets: 1 | Reps: 8 | Weight: —
+     Notes: Move with breath, gentle mobilization
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║              GYM — DAY 1: PUSH + CORE (Chest, Shoulders, Triceps, Core)    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  PROGRESSION RULE: Hit max reps on all sets → increase weight → drop back
+  to min reps. One rep per week max.
+
+  1. Cable chest press (neutral grip)                     [MAIN STRENGTH LIFT]
+     Prescribed: 5 sets × 3–5 reps | Default: 11kg
+     Current:    3 sets × 5 reps   | Current wt: 23kg
+     Notes: Main strength lift. Staggered stance, don't lock elbows
+
+  2. DB bench press (neutral grip)                        [SECONDARY PUSH]
+     Prescribed: 4 sets × 4–6 reps | Default: 12lb
+     Current:    3 sets × 4 reps   | Current wt: 25lb
+     Notes: ELBOW: stop 10° before lockout, never go to failure
+
+  3. Cable fly                                            [ISOLATION]
+     Prescribed: 3 sets × 8–10 reps | Default: 9kg
+     Current:    3 sets × 10 reps   | Current wt: 18kg
+     Notes: Isolation — constant tension, 2s eccentric
+
+  4. Cable row (postural)                                 [POSTURAL]
+     Prescribed: 3 sets × 8–10 reps | Default: 15kg
+     Current:    3 sets × 8 reps    | Current wt: 18kg
+     Notes: Postural correction — elbows 30–45°, squeeze 1s
+
+  5. Cable lateral raise                                  [ISOLATION]
+     Prescribed: 3 sets × 10–12 reps | Default: 5kg
+     Current:    3 sets × 10 reps    | Current wt: 9kg
+     Notes: Isolation — lead with pinky, no momentum
+
+  6. Triceps rope pressdown                               [ELBOW-SAFE]
+     Prescribed: 3 sets × 8–10 reps | Default: 12kg
+     Current:    3 sets × 10 reps   | Current wt: 27kg
+     Notes: ELBOW: moderate weight only, no full lockout
+
+  7. Pallof press (core)                                  [CORE REHAB]
+     Prescribed: 3 sets × 8–10 reps | Default: 14kg
+     Current:    2 sets × 10 reps   | Current wt: 18kg
+     Notes: Anti-rotation — brace transverse abs, slow and controlled
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       GYM — DAY 2: LEGS + CORE (Quads, Hamstrings, Calves, Core)           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Leg press                                            [MAIN STRENGTH LIFT]
+     Prescribed: 5 sets × 4–6 reps | Default: 55kg
+     Current:    3 sets × 4 reps   | Current wt: 54kg
+     Notes: SCIATICA: no spinal rounding, foot mid-high, don't lock knees
+
+  2. Seated leg curl                                      [SECONDARY]
+     Prescribed: 4 sets × 5–7 reps | Default: 27kg
+     Current:    4 sets × 5 reps   | Current wt: 39kg
+     Notes: Slow eccentric (3s down), hamstring control
+
+  3. Seated leg extension                                 [SECONDARY]
+     Prescribed: 3 sets × 6–8 reps | Default: 20kg
+     Current:    4 sets × 6 reps   | Current wt: 32kg
+     Notes: Stop 10° before lockout, controlled — no snapping
+
+  4. Split squat (short ROM, support)                     [SINGLE-LEG]
+     Prescribed: 3 sets × 5–7 reps | Default: BW
+     Current:    4 sets × 7 reps   | Current wt: 18kg
+     Notes: SCIATICA/FOOT: skip entirely if >3/10 pain, replace with leg press set
+
+  5. Seated calf raise                                    [REHAB]
+     Prescribed: 3 sets × 10–12 reps | Default: 30kg
+     Current:    3 sets × 12 reps    | Current wt: 54kg
+     Notes: Seated preferred — calves respond to moderate rep ranges
+
+  6. Tibialis raises                                      [REHAB]
+     Prescribed: 2 sets × 15–20 reps | Default: —
+     Current:    3 sets × 15 reps    | Current wt: —
+     Notes: REHAB: foot/ankle stability, don't add weight
+
+  7. Glute bridge (bodyweight)                            [REHAB]
+     Prescribed: 3 sets × 10–12 reps | Default: —
+     Current:    3 sets × 11 reps    | Current wt: —
+     Notes: REHAB: glute activation + core stability, hold 2s at top
+
+  8. Pallof press (core)                                  [CORE REHAB]
+     Prescribed: 2 sets × 8–10 reps | Default: 14kg
+     Current:    3 sets × 8 reps    | Current wt: 18kg
+     Notes: Anti-rotation — alternate sides
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       GYM — DAY 3: PULL + CORE (Back, Biceps, Rear delts, Core)           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Low cable row                                        [MAIN STRENGTH LIFT]
+     Prescribed: 5 sets × 3–5 reps | Default: 25kg
+     Current:    3 sets × 3 reps   | Current wt: 39kg
+     Notes: Main strength lift. Neutral grip, chest up, no jerking
+
+  2. Lat pulldown (neutral grip)                          [SECONDARY PULL]
+     Prescribed: 4 sets × 4–6 reps | Default: 25kg
+     Current:    3 sets × 4 reps   | Current wt: 39kg
+     Notes: Drive elbows to hips, stop 10° before full extension
+
+  3. Single-arm cable pulldown                            [SECONDARY]
+     Prescribed: 3 sets × 5–7 reps | Default: 16kg
+     Current:    3 sets × 5 reps   | Current wt: 18kg
+     Notes: Strict form, feel the lat fully (each side)
+
+  4. Straight-arm pulldown                                [SECONDARY]
+     Prescribed: 3 sets × 6–8 reps | Default: 14kg
+     Current:    3 sets × 7 reps   | Current wt: 18kg
+     Notes: Slight forward lean, long arc, squeeze at bottom
+
+  5. Reverse cable fly                                    [POSTURAL]
+     Prescribed: 3 sets × 10–12 reps | Default: 5kg
+     Current:    3 sets × 10 reps    | Current wt: 9kg
+     Notes: Postural — light, rear delt focus, no swinging
+
+  6. Cable curls                                          [ELBOW-SAFE]
+     Prescribed: 3 sets × 8–10 reps | Default: 16kg
+     Current:    3 sets × 8 reps    | Current wt: 27kg
+     Notes: ELBOW: no full extension at bottom, moderate load only
+
+  7. Bird-dogs (core)                                     [CORE REHAB]
+     Prescribed: 3 sets × 8 reps | Default: —
+     Current:    3 sets × 8 reps | Current wt: —
+     Notes: Hold 3s at top, brace core — anti-extension (each side)
+
+  8. Dead bugs (core)                                     [CORE REHAB]
+     Prescribed: 3 sets × 8 reps | Default: —
+     Current:    3 sets × 8 reps | Current wt: —
+     Notes: Press low back into floor, opposite arm/leg only
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       GYM — DAY 4: GLUTES + CORE (Glutes, Hamstrings, Core)               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Hip thrust (bench + DB/BB)                           [MAIN STRENGTH LIFT]
+     Prescribed: 5 sets × 4–6 reps | Default: 25kg
+     Current:    3 sets × 4 reps   | Current wt: 70lb
+     Notes: Best strength lift for you — glutes, no spinal compression. Full squeeze at top
+
+  2. DB Romanian deadlift                                 [SECONDARY HINGE]
+     Prescribed: 4 sets × 4–6 reps | Default: 10kg
+     Current:    3 sets × 4 reps   | Current wt: 20kg
+     Notes: SCIATICA: hip hinge must be perfect — never round lumbar. Start very light
+
+  3. Cable pull-through                                   [HINGE PATTERN]
+     Prescribed: 3 sets × 6–8 reps | Default: 20kg
+     Current:    3 sets × 6 reps   | Current wt: 20kg
+     Notes: Hinge pattern reinforcement — squeeze glutes at top
+
+  4. Cable kickbacks                                      [ISOLATION]
+     Prescribed: 3 sets × 10–12 reps | Default: 16kg
+     Current:    3 sets × 10 reps    | Current wt: 16kg
+     Notes: Glute isolation — don't arch back (each side)
+
+  5. Cable abduction                                      [ISOLATION]
+     Prescribed: 3 sets × 12–15 reps | Default: 9kg
+     Current:    3 sets × 12 reps    | Current wt: 9kg
+     Notes: Glute medius — slow and controlled
+
+  6. Dead bugs (core)                                     [CORE REHAB]
+     Prescribed: 2 sets × 8 reps | Default: —
+     Current:    3 sets × 8 reps | Current wt: —
+     Notes: Core finisher — slow, controlled, press low back down
+
+  7. Bird-dogs (core)                                     [CORE REHAB]
+     Prescribed: 2 sets × 8 reps | Default: —
+     Current:    3 sets × 8 reps | Current wt: —
+     Notes: Anti-extension — hold 3s at top
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         GYM — CARDIO PLAN                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Weeks 1–6:   Walking only. 15–20 min daily on flat ground.
+  Weeks 7–12:  Stationary bike, 15–20 min, 2×/week, low resistance. Recumbent preferred.
+  Weeks 13+:   Swimming if physio approves. 20 min, 2×/week.
+  Running:     Only after physio clearance + 4 weeks pain-free. Walk/jog intervals to start.
+
+
+================================================================================
+================================================================================
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — MONDAY                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Core 1
+     Sets: 1 | Reps: 3
+     Description: En tapete, en 4, subir las rodillas poquito (pies en puntas). 10 a 15 segundos, 3 repeticiones, sólo una serie.
+
+  2. Core 2
+     Sets: 1 | Reps: 8
+     Description: En tapete, en 4, apretar abdomen. Levantar mano y pierna opuesta, abrir (como girar hacia afuera), regresar, tocar mano con rodilla (ese es uno). Ver hacia abajo. 8 de cada lado, sólo una serie.
+
+  3. Core 3
+     Sets: 2 | Reps: 8
+     Description: En tapete, acostado boca arriba. Doblar piernas, agarrar una y llevarla al pecho, extender la otra y regresar. 8 de cada lado. 2 series.
+
+  4. Core 4
+     Sets: 2 | Reps: 6
+     Description: En tapete, acostado boca arriba. Apretar abdomen. No se debe sentir en la pierna. Doblar piernas, agarrar una y llevarla al pecho. La otra, subir bajara y girar hacia afuera y luego de regreso (arriba abajo abierto y cerrado). Almohada en el cuello. Abierto y cerrado es uno. 6 de cada lado, 2 series.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — TUESDAY                               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Glutes 1
+     Sets: 2 | Reps: 8
+     Description: En 4 con antebrazos, ligas (dureza media) abajito de la rodilla (tendón). Abrir y cerrar una pierna (que se sienta en la pompi). Apretar abdomen, ombligo adentro. 8 de cada lado, 2 series. Que no se sienta pellizco o ardor en pompi. No girar ni otra pierna ni cadera, sólo pierna y pompi. No sacar las pompis.
+
+  2. Glutes 2
+     Sets: 2 | Reps: 8
+     Description: En 4 con antebrazos, bajar más la liga (dureza media) a nivel tobillos. Extender una pierna e ir hacia arriba. Apretar abdomen. Subir poquito y bajar (no extender hasta arriba).
+
+  3. Glutes 3
+     Sets: 2 | Reps: 6
+     Description: Boca arriba, una pierna doblada en el piso, mientras más doblada mejor. Manos arriba. Estirar la otra pierna. Levantar cuerpo (como el de glúteos que hacía en gym). Quedarse recto, no levantar las pompis demás para hacer arco).
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — WEDNESDAY                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Calentamiento
+     Sets: 2 | Reps: 10
+     Description: Sacar y meter pompi en 4, 2 series 10 reps ----- en cuatro caminar con manos hacia los lados (girar) y al llegar el final, estirar pierna (del lado que estoy girado). Igual 2x10 ------ ponerse en príncipe, levantar manos hacia arriba, estirar hacia adelante. Igual 2x10 ----- igual de príncipe, tocar suelo con mano contraria (si rodilla arriba derecha, bajar lado izquierdo). No sacar la pompa. 2X10 ---- en silla o sillón simplemente tratar de ir lo más abajo posible (estirar espalda baja). ----- en la silla también, estirar hacia lados tocando pie (manos detrás de rodilla). ---- sentado, estirar hacia arriba manos (y arquear espalda), luego ir hacia abajo y tocar piso. 2x10.
+
+  2. Glúteo/espalda/core
+     Sets: 3 | Reps: 8
+     Description: Sentarse, liga Arribita de rodillas y abrir piernas. Apretar, balancearse hacia arriba y levantarse a estirar piernas, luego igual con control sentarse, y repetir.
+
+  3. Pierna
+     Sets: 2 | Reps: 6
+     Description: Agarrar puerta, de cojito, bajar pierna (sentadilla) y estirar la pierna hacia atrás. Cuando subo, extender la rodilla y la pierna al aire hacia el estómago. No rotar el cuerpo.
+
+  4. Dorsal
+     Sets: 2 | Reps: 8
+     Description: Acostarse del lado, codo en piso, levantar y bajar cadera. Al subir cadera, levantar pierna a tocar rodilla hombro. Al bajar, poner rodilla levantada detrás de el otro pie. No hacerse conchita.
+
+  5. Core
+     Sets: 2 | Reps: 8
+     Description: Con el ab roller, a apretar abdomen pero no hacer toda la extensión.
+
+  6. Espalda 1
+     Sets: 2 | Reps: 6
+     Description: Rodilla en suelo, estirar la otra pierna hacia lateral, hacer como un bow, no encorvar o arquear, sino agacharse como bow. Subir todo junto con pompis (no espalda primero luego pompis)
+
+  7. Pesas
+     Sets: 2 | Reps: 10
+     Description: Simplemente pasar la pesa de un brazo a otro apretando abdomen. Grabarse de enfrente y del lado.
+
+  8. Core
+     Sets: 2 | Reps: 12
+     Description: De bicho hacia arriba, poner pesa en mano fija, estirar pierna de L a I y bajar la otra mano (estirada).
+
+  9. Core 2
+     Sets: 1 | Reps: 8
+     Description: Ejercicio de ponerse en 4 y agrupar rodilla mano y luego estirar y girar ambas extremidades (tons estirar, girar, regresar, juntar) PERO con almohada en rodilla para hacer más difícil de balancear.
+
+  10. Core 3
+      Sets: 3 | Reps: 8
+      Description: Acostado boca arriba. Dos piernas arriba (L), poner liga, intentar bajar una pierna hacia abajo.
+
+  11. Neurodinamia
+      Sets: 2 | Reps: 10
+      Description: Sentado, estirar la pierna lo más possible hacia afuera (con talón en suelo), hacerse conchita (puedo agarrar la otra pierna pa jalarme). Levantar pie hacia arriba y cabeza gira hacia arriba, luego los dos hacia abajo, repetir.
+
+  12. Neuro2
+      Sets: 2 | Reps: 10
+      Description: Parado frente a sillón, pierna empeine puesto en recargadera, derecho (no inclinarse). Bajar pierna (tipo sentadilla) y mover cabeza hacia atrás. Al levantar pierna, cabeza hacia adelante.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — THURSDAY                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. leg1
+     Sets: 3 | Reps: 8
+     Description: Parado con liga azul en pantorrillas. Parecido al parado doblar pierna y bajar espalda (estirando brazo y otra pierna). Doblar una pierna, como empujando hacia abajo y doblando rodilla. Estirar la otra pierna hacia atrás sin dejar de tocar el piso (osease deslizando, con puntas tocando el suelo). Bajar hasta que manos toquen el piso. 3 series 8 reps. Se debe sentir en pompi.
+
+  2. leg2
+     Sets: 2 | Reps: 8
+     Description: En posición sentadilla, sin encorvar mucho. Hacia atrás como si quisiera sentarme en silla, pero tronco hacia adelante. Abrir piernas y cerrar, caminar lateral. 2 pasos izq y der. 2 series 8 reps.
+
+  3. leg3
+     Sets: 3 | Reps: 8
+     Description: En suelo, piernas dobladas como sentado. Tobillo en la cama japonesa, empujar hacia abajo no enfrente, levantar hacia arriba (como queriendo enderezar pierna con espalda). Puedo poner las manos abajo para que no duela la espalda. 3 series 8 reps.
+
+  4. leg4
+     Sets: 2 | Reps: 6
+     Description: Quadriceps. Sentarse, estirar pierna lo más que pueda, luego subo y pongo pantorrilla en la silla. Bajar la pierna de la silla y subir hasta extender la otra pierna por completo. Poner dedos de pie (planta) en la silla). Se debe sentir en muslo y pompi. 2 series 6 reps.
+
+  5. core1
+     Sets: 2 | Reps: 10
+     Description: En 4, levantar rodillas, deslizar hacia atrás y hacia adelante. 2 series, 10 reps.
+
+  6. core2
+     Sets: 2 | Reps: 8
+     Description: En cama japonesa, piernas y brazos arriba (como bicho pero estirados todos). Poner almohada en la pared y apretar con el pie pegado (hacia lateral), apertura de cadera. Bajar y subir (estirados) el otro pie y el brazo opuesto. 2 series 8 de cada lado.
+
+  7. core3
+     Sets: 2 | Reps: 20
+     Description: En 4, levantar rodillas, mover rodilla hacia pecho opuesto, luego el siguiente. 3 series, 20 reps.
+
+  8. core4
+     Sets: 3 | Reps: 6
+     Description: Acostado, estirar (estiradas) las dos piernas. Poner objeto en brazo y tratar de llevarlo hacia las puntas (apretando abdomen, no cuello). Esforzarse en llegar hasta arriba. 3 series 6 reps.
+
+  9. core3=5 (ab roller variant)
+     Sets: 2 | Reps: 8
+     Description: Ab roller pero más atrás. No arquear, nunca sentir presión en columna o como que me canse. 2 series, 8 reps.
+
+  10. core6
+      Sets: 1 | Reps: 4
+      Description: Con pelota, en 4, levantar rodillas, poner codos en pelota con manos agarradas. Llevar brazos hacia adelante y atrás 3 veces, luego como en círculo hacia un lado 3 veces, luego hacia el otro 3 veces. 3 a 4 reps.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — FRIDAY                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Core 1
+     Sets: 2 | Reps: 11
+     Description: Acostado, liga en tubo, doblar piernas (como a nivel sentado) y bajar brazos (estirados) y de ahí estirar brazos y piernas. Liga suave. 2 series, 10 reps. Sin irritación en axila o espalda.
+
+  2. Core 2
+     Sets: 1 | Reps: 10
+     Description: Parado, liga en tubo, Palloff position, dibujar los números (hasta 10). Brazos siempre a par de cuerpo y rectos.
+
+  3. Core 3
+     Sets: 2 | Reps: 9
+     Description: Con liga en tubo. De rodillas y manos atrás de la nuca. Bajar lo más que pueda, como exprimiendo el abdomen y regresar a línea recta. Ir hacia adelante rápido, y levantarse en 3 a 4 segundos (o más si bajo más). 2 series 8 reps.
+
+  4. Core 4
+     Sets: 2 | Reps: 8
+     Description: Con pelota en gym, como el ab roller pero con pelota (estirar mucho pero no sentir presión en la columna lumbar). 2 series 8 reps.
+
+  5. Core 5
+     Sets: 1 | Reps: 1
+     Description: Parado, mano abajo (estirada) y pierna arriba (L), apretando pelota. Asegurarse de estar recto (no irse hacia atrás). 10 segundos y luego cambiar de pierna.
+
+  6. Core 6
+     Sets: 1 | Reps: 16
+     Description: De rodillas, brazos agarrando liga (del lado) como en el hombro contrario a la liga. Luego mover hacia el lado. 8 y 8 Ó, acostado, con piernas dobladas (pies en piso), levantar ligeramente la espalda y abdomen (sin que duela y sin doblar cuello) y moverse a que brazo al costado toque pierna.
+
+  7. Core 7
+     Sets: 1 | Reps: 16
+     Description: Acostado, con pesa en manos, estirar manos hacia arriba. Mover piernas hacia adelante y hacia atrás (L como sentado). Si piernas me empujan hacia abajo hacer una y una pierna. 5 kilos (pesa), 8 de cada lado.
+
+  8. Pierna 1
+     Sets: 2 | Reps: 8
+     Description: Parado, mano con pesa y brazos abajo. Desplante hacia atrás (brazo abajo aún), luego subir pierna opuesta a pesa (como sentado, doblada en L) y brazo de pesa en L hacia arriba. Mantenerse ahí 5 segundos. Pesa de 4 kilos. Sentirlo en las pompis. 8 reps, 2 series.
+
+  9. Pierna 2
+     Sets: 2 | Reps: 8
+     Description: Parado. Pesa en mano. Bajar pesa y brazo estirado a tocar piso, y extender la pierna del mismo lado estirada hacia atrás (no deslizar, levantar), doblando entonces la pierna opuesta al brazo de la pesa. 2 a 3 series, 8 reps. Pesa de 4 a 5 kilos.
+
+  10. Pierna 3
+      Sets: 2 | Reps: 8
+      Description: Parado con pesa, Igual que el pasado, pero ahora subiendo la pierna arriba en lugar de estirarla hacia atrás en piso. Tocar con el brazo con pesa el piso. Espalda firme y recta. Doblar un poco la otra pierna. Quedarse 2 a 3 segundos abajo.
+
+  11. Pierna 4
+      Sets: 2 | Reps: 10
+      Description: En el suelo, brazos a los costados, piernas (sentado) con pies en pelota grande. Levantar las pompis, mover piernas hacia adelante y hacia atrás. 2 series 10 reps.
+
+  12. Cuello 1
+      Sets: 2 | Reps: 6
+      Description: Liga de círculo en las muñecas, brazos doblados al frente, abrir y cerrar espalda, sin sacar el pecho. 2 series 6 reps.
+
+  13. Cuello 2
+      Sets: 2 | Reps: 6
+      Description: Con la liga grande pisarla, levantar brazo a que codo esté en la misma línea que el hombro y tratar que sea paralelo a la espalda. De ahí girar el brazo a levantar-estirar liga.
+
+  14. Rutina (scheduling note)
+      Sets: 1 | Reps: 1
+      Description: Meter uno de los pasados cada ejercicio. Lunes Push + core. Martes Pierna + pierna fisio. Miércoles Pull + core. Jueves Cuello + pierna fisio con target a disc.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — SATURDAY                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Cardio
+     Sets: 3 | Reps: 10
+     Description: A practical 20-minute protocol on your recumbent bike: Start with 3–4 minutes of easy pedaling to warm up. Then do intervals: pedal hard (high resistance, around 85–90% effort) for 30–60 seconds, followed by easy pedaling (low resistance, around 40–50% effort) for 1.5–2 minutes. Repeat 5–8 rounds. Finish with 2–3 minutes of easy cooldown pedaling. The protocol you described (90% for a minute, 40% for two minutes) is basically perfect — that's very close to what the research uses. One important caveat though: since you're in rehab for spinal compression, please run the HIIT idea by your physio or rehab specialist before going all-in. Rehab professionals typically recommend starting with 10–15 minutes of low resistance, then building up from there. (Vanswe Fitness) The recumbent bike itself is spine-safe, but spiking your effort to 90% could involve bracing or tensing through your core in ways your spine might not be ready for yet. Start with milder intervals (say 70% effort instead of 90%) and build up over a few weeks as your physio clears you.
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     PHYSIO PROGRAM — SUNDAY                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. Pausa Activa (cada hora, 5 minutos)
+     Sets: 1 | Reps: 1
+     Description: ------Sentado, piernas abiertas, intentar tocar el piso, hacerse conchita. Se debe sentir estiramiento en parte baja de la espalda. 15 a 20 segundos. -----Sentado, ir de un lado (que se sienta del lado contrario), ambas manos pasan la rodilla.. Del ladito. 15 a 20 segundos. -----Sentado. Llevar brazos hacia arriba haciendo un arco hacia atrás. 15 a 20 segundos. -----Doblar una pierna e intentar llevar el tronco hacia abajo (jalar con las manos) se debe sentir en la pompi. Luego del otro lado. 20 segundos. -----Pararse, agarrar pierna y estirar por atrás (los estiramientos que suelo hacer jalando mi tobillo). Ambos lados. 20 segundos. -----Parado, poner la pierna en la silla. Estirar (con pie en L), luego doblar hacia la silla (como lunge). No esperar tiempo entre posiciones. 10 de cada lado.
+
+  2. Movilidad de columna (3 veces al día todos los días)
+     Sets: 1 | Reps: 1
+     Description: -----En tapete. En 4, sacar pompi y encorvar (estiramiento). 10 veces. -----En tapete. En 4, mover las manos (caminar) hacia un lado y al otro. (girar espalda, no pies). 10 veces (5 y 5). -----En tapete en 4, poner mano en la nuca, tocar codo (dentro) y de ahí levantar hacia arriba, girando también el cuello. 10 de cada lado. -----En tapete, en 4, abrir piernas (girar rodilla) y cerrar, como tijeritas, cruzar pies, y luego abrir, etc. 10 veces.
+
+  3. Neurodinamia (3 veces al día todos los días y cuando duela o cuando camine mucho)
+     Sets: 1 | Reps: 1
+     Description: -----En tapete acostado. Una pierna doblada (suela del pie en el piso) la otra levantada en L (tratar de pegar al pecho) al revés. Estirar pierna levantada, cuando va hacia arriba, pie girado hacia adentro, cuando va abajo, pie girado hacia afuera. Que los dedos se doblen también. Si arde, no estirar tanto la pierna. 10 veces cada lado. Varias veces al día. Mañana y noche, o 3 veces al día o cada que duela. Se puede también parado. Checar que la rodilla suba y baje, el pie gire, pero no la cadera. -----En tapete acostado. Una pierna doblada y otra estirada y la levantada simplemente sube y baja. Igual que el de arriba pero sin girar pie. Cuando la pierna baja, pie estira, cuando sube, pie se pone en L. Bajar más la rodilla para que se sienta el estirón en el pie, no en la pierna. 10 veces. -----En tapete, acostado del lado, agarrar pie por atrás y poner cabeza sobre brazo (codo). Estirar pierna atrás y girar cabeza atrás, luego ambos adelante. No estirar o encorvar espalda, sólo pierna y cabeza. 10 veces.
+
+
+================================================================================
+                              END OF EXPORT
+================================================================================
