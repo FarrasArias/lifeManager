@@ -34,7 +34,6 @@ const SCHEDULE = {
   mon: [
     { id: 'warmup',  label: 'Warm-up + chin tucks + nerve glides',  time: '10 min', cat: 'prep' },
     { id: 'gym',     label: 'Gym — Day 1: Push',                     time: '50 min', cat: 'gym' },
-    { id: 'cardio',  label: 'Cardio (recumbent bike)',                time: '20 min', cat: 'cardio' },
     { id: 'neck',    label: 'Physio: Neck / Upper Back',              time: '15 min', cat: 'physio' },
     { id: 'legs',    label: 'Physio: Legs / Glutes',                  time: '15 min', cat: 'physio' },
     { id: 'neuro',   label: 'Neurodinamia + movilidad columna',       time: '10 min', cat: 'daily' },
@@ -46,16 +45,16 @@ const SCHEDULE = {
     { id: 'neuro',   label: 'Neurodinamia + movilidad columna',       time: '10 min', cat: 'daily' },
   ],
   wed: [
-    { id: 'warmup',  label: 'Warm-up + chin tucks + nerve glides',  time: '10 min', cat: 'prep' },
-    { id: 'gym',     label: 'Gym — Day 3: Pull',                     time: '50 min', cat: 'gym' },
     { id: 'cardio',  label: 'Cardio (recumbent bike)',                time: '20 min', cat: 'cardio' },
     { id: 'neck',    label: 'Physio: Neck / Upper Back',              time: '15 min', cat: 'physio' },
     { id: 'legs',    label: 'Physio: Legs / Glutes',                  time: '15 min', cat: 'physio' },
+    { id: 'nerve',   label: 'Full nerve flossing session',            time: '10 min', cat: 'daily' },
     { id: 'neuro',   label: 'Neurodinamia + movilidad columna',       time: '10 min', cat: 'daily' },
+    { id: 'stretch', label: 'Pausa activa / stretching',              time: '10 min', cat: 'daily' },
   ],
   thu: [
     { id: 'warmup',  label: 'Warm-up + chin tucks + nerve glides',  time: '10 min', cat: 'prep' },
-    { id: 'gym',     label: 'Gym — Day 4: Push/Pull Hybrid',         time: '50 min', cat: 'gym' },
+    { id: 'gym',     label: 'Gym — Day 3: Pull',                     time: '50 min', cat: 'gym' },
     { id: 'core',    label: 'Physio: Core',                           time: '25 min', cat: 'physio' },
     { id: 'neuro',   label: 'Neurodinamia + movilidad columna',       time: '10 min', cat: 'daily' },
   ],
@@ -68,10 +67,10 @@ const SCHEDULE = {
     { id: 'stretch', label: 'Pausa activa / stretching',              time: '10 min', cat: 'daily' },
   ],
   sat: [
+    { id: 'warmup',  label: 'Warm-up + chin tucks + nerve glides',  time: '10 min', cat: 'prep' },
+    { id: 'gym',     label: 'Gym — Day 4: Push/Pull Hybrid',         time: '50 min', cat: 'gym' },
     { id: 'core',    label: 'Physio: Core',                           time: '25 min', cat: 'physio' },
-    { id: 'nerve',   label: 'Full nerve flossing session',            time: '10 min', cat: 'daily' },
     { id: 'neuro',   label: 'Neurodinamia + movilidad columna',       time: '10 min', cat: 'daily' },
-    { id: 'stretch', label: 'Pausa activa / stretching',              time: '10 min', cat: 'daily' },
   ],
   sun: [
     { id: 'neck',    label: 'Physio: Neck / Upper Back',              time: '15 min', cat: 'physio' },
@@ -83,12 +82,12 @@ const SCHEDULE = {
 };
 
 const DAY_TITLES = {
-  mon: 'Gym Push + Cardio',
+  mon: 'Gym Push',
   tue: 'Gym Legs',
-  wed: 'Gym Pull + Cardio',
-  thu: 'Gym Hybrid',
-  fri: 'Active Recovery + Cardio',
-  sat: 'Light Recovery',
+  wed: 'Cardio + Recovery',
+  thu: 'Gym Pull',
+  fri: 'Cardio + Recovery',
+  sat: 'Gym Hybrid',
   sun: 'Rest + Maintenance',
 };
 

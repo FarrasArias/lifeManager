@@ -557,14 +557,13 @@
   └──────────┴──────────────┴──────────────┴──────────────────┘
 
   ┌─────────┬──────────────────────────────────────────────────────────────┐
-  │ MONDAY  │ GYM DAY 1: Push + Cardio                                    │
+  │ MONDAY  │ GYM DAY 1: Push                                             │
   │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
   │         │ ├─ Push workout ........................ 50 min             │
-  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
   │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
   │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
   │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
-  │         │ └─ TOTAL ............................... ~120 min           │
+  │         │ └─ TOTAL ............................... ~100 min           │
   │         │ (upper body gym + lower body physio = no overlap)            │
   ├─────────┼──────────────────────────────────────────────────────────────┤
   │ TUESDAY │ GYM DAY 2: Legs                                             │
@@ -574,29 +573,8 @@
   │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
   │         │ └─ TOTAL ............................... ~95 min            │
   │         │ (gym legs + core physio = legs rest during core)             │
-  │         │ (NO legs physio today, NO legs physio yesterday = fresh)     │
   ├─────────┼──────────────────────────────────────────────────────────────┤
-  │ WEDNESDAY│ GYM DAY 3: Pull + Cardio                                   │
-  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
-  │         │ ├─ Pull workout ........................ 50 min             │
-  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
-  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
-  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
-  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
-  │         │ └─ TOTAL ............................... ~120 min           │
-  │         │ (upper body gym + lower body physio = no overlap)            │
-  │         │ (legs had gym yesterday, today is just light physio          │
-  │         │  activation = proper recovery spacing)                       │
-  ├─────────┼──────────────────────────────────────────────────────────────┤
-  │ THURSDAY│ GYM DAY 4: Push/Pull Hybrid                                 │
-  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
-  │         │ ├─ Hybrid workout ...................... 50 min             │
-  │         │ ├─ Physio: Core ........................ 25 min             │
-  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
-  │         │ └─ TOTAL ............................... ~95 min            │
-  │         │ (second upper body hit of the week + core physio)            │
-  ├─────────┼──────────────────────────────────────────────────────────────┤
-  │ FRIDAY  │ ACTIVE RECOVERY + PHYSIO + CARDIO (no gym)                   │
+  │ WEDNESDAY│ CARDIO + RECOVERY (no gym)                                  │
   │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
   │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
   │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
@@ -604,15 +582,33 @@
   │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
   │         │ ├─ Pausa activa / stretching ........... 10 min             │
   │         │ └─ TOTAL ............................... ~80 min            │
-  │         │ (recovery day — cardio + mobility + nerve health)            │
+  │         │ (mid-week break: legs recover from Tue with light physio)    │
   ├─────────┼──────────────────────────────────────────────────────────────┤
-  │ SATURDAY│ ACTIVE RECOVERY + PHYSIO (no gym)                            │
+  │ THURSDAY│ GYM DAY 3: Pull                                             │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Pull workout ........................ 50 min             │
   │         │ ├─ Physio: Core ........................ 25 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~95 min            │
+  │         │ (back/biceps gym + core physio = no overlap)                 │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ FRIDAY  │ CARDIO + RECOVERY (no gym)                                   │
+  │         │ ├─ Cardio (recumbent bike) ............. 20 min             │
+  │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
+  │         │ ├─ Physio: Legs/Glutes ................. 15 min             │
   │         │ ├─ Full nerve flossing session ......... 10 min             │
   │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
   │         │ ├─ Pausa activa / stretching ........... 10 min             │
-  │         │ └─ TOTAL ............................... ~55 min            │
-  │         │ (light day — core physio + recovery only)                    │
+  │         │ └─ TOTAL ............................... ~80 min            │
+  │         │ (rest between Pull and Hybrid — back/biceps recover)         │
+  ├─────────┼──────────────────────────────────────────────────────────────┤
+  │ SATURDAY│ GYM DAY 4: Push/Pull Hybrid                                 │
+  │         │ ├─ Warm-up + chin tucks + nerve glides . 10 min             │
+  │         │ ├─ Hybrid workout ...................... 50 min             │
+  │         │ ├─ Physio: Core ........................ 25 min             │
+  │         │ ├─ Neurodinamia + movilidad columna .... 10 min             │
+  │         │ └─ TOTAL ............................... ~95 min            │
+  │         │ (second upper body hit of the week + core physio)            │
   ├─────────┼──────────────────────────────────────────────────────────────┤
   │ SUNDAY  │ REST + MINIMUM MAINTENANCE                                   │
   │         │ ├─ Physio: Neck/Upper Back ............. 15 min             │
@@ -626,21 +622,18 @@
 
   WHY THIS SCHEDULE WORKS:
   ────────────────────────
-  • GYM LEGS (Tue) is buffered from LEGS PHYSIO:
-    - Monday has legs physio (light activation) → Tuesday is gym legs
-      (physio activation actually PRIMES muscles for next day)
-    - Wednesday has legs physio again (light rehab) → allows recovery
-      from Tuesday's gym legs with gentle movement (active recovery)
-    - Thursday/Saturday: NO legs work, full rest for lower body
+  • GYM DAYS SPLIT 2+2: Mon-Tue / Thu / Sat with rest days between
+    → prevents 4-day fatigue accumulation
+  • GYM LEGS (Tue) pairs with Core physio (no legs overlap ✓)
+  • Pull (Thu) and Hybrid (Sat) separated by rest day (Fri)
+    → back/biceps fully recover between sessions
   • UPPER BODY gets 2×/week frequency:
-    - Push on Monday, Pull on Wednesday, Hybrid on Thursday
+    - Push on Monday, Pull on Thursday, Hybrid on Saturday
     - Every upper body muscle hit twice = optimal hypertrophy stimulus
-  • Upper body gym days pair with Legs/Glutes physio (no interference)
-  • Gym Legs day pairs with Core physio (legs rest during core)
-  • Cardio placed on Mon/Wed/Fri (3×/week as recommended)
-  • Tuesday/Thursday are lighter total time (~95 min) to prevent burnout
-  • Friday is active recovery (cardio + mobility, no lifting)
-  • Saturday is the lightest day (core physio + mobility only)
+  • Upper body gym days pair with Legs/Glutes or Core physio (no overlap)
+  • Cardio on Wed + Fri (rest days) instead of stacked on gym days
+    → shorter gym sessions, dedicated cardio focus
+  • Wednesday mid-week break prevents burnout
   • Sunday is true rest with only maintenance physio
   • Chin tucks between EVERY set during gym = constant cervical
     decompression (becomes automatic habit within 2 weeks)
